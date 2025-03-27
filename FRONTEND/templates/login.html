@@ -1,30 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- AOS (Animate On Scroll) Library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - INNOVAID</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>INNOVAID Login</title>
+    <script src="loginpagejs.js" defer></script>
 </head>
+<body id="body">
+    <button onclick="toggleDarkMode()" class="dark-mode-btn">🌙 Dark Mode</button>
+    
+    <div class="title">INNOVAID</div>
+    <div class="catchy-phrase">Smart Expiry Tracking – Minimize Waste, Maximize Awareness!</div>
 
-<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="login-container">
+        <div class="login-box">
+            <h1>LOGIN</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <small class="error-message"></small>
+                </div>
+                <div class="form-group">
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="Enter your password">
+                    <small class="error-message"></small>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
 
-    <div class="bg-white p-6 rounded-lg shadow-lg w-96">
-        <h2 class="text-2xl font-bold text-center text-gray-700 mb-4">Login to INNOVAID</h2>
-        <form>
-            <input type="email" placeholder="Email" class="w-full p-2 border rounded mb-3">
-            <input type="password" placeholder="Password" class="w-full p-2 border rounded mb-3">
-            <button class="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700 transition">Login</button>
-        </form>
-        <p class="text-center mt-3 text-gray-600">Don't have an account? <a href="signup.html" class="text-blue-600">Sign Up</a></p>
+            <a href="dashboard.html" class="nav-link" id="navLink">Go to Dashboard</a>
+        </div>
     </div>
-   
 
+    <script>
+        function toggleDarkMode() {
+            let body = document.getElementById('body');
+            body.classList.toggle('dark-mode');
+
+            let darkMode = body.classList.contains('dark-mode') ? 'enabled' : 'disabled';
+            localStorage.setItem('darkMode', darkMode);
+        }
+
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            document.getElementById('body').classList.add('dark-mode');
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #ECF0F1;
+            padding: 20px;
+            transition: 0.5s;
+        }
+
+        .dark-mode {
+            background: #1C1C1C !important;
+            color: white !important;
+        }
+
+        .dark-mode-btn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            padding: 10px;
+            font-size: 16px;
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .title {
+            font-size: 36px;
+            color: #2C3E50;
+            font-weight: bold;
+        }
+
+        .catchy-phrase {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            transition: 0.3s;
+        }
+
+        .login-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        input:focus {
+            border-color: #3498DB;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            background: #3498DB;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #2980B9;
+        }
+
+        .nav-link {
+            display: none;
+            margin-top: 20px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #3498DB;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </body>
 </html>
-
-    
