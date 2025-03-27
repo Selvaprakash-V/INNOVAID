@@ -125,7 +125,9 @@
     </div>
 
     <script>
-        document.getElementById("adminSignupForm").addEventListener("submit", function(event) {
+        const API_URL = "http://127.0.0.1:5000/auth/signup";
+
+        document.getElementById("adminSignupForm").addEventListener("submit", async function(event) {
             event.preventDefault();
 
             const shopName = document.getElementById("shopName").value.trim();
@@ -149,8 +151,34 @@
                 errorMessage.style.display = "none";
             }
 
-            alert(`Admin Signup Successful!`);
-            console.log(`Shop Name: ${shopName}, Email: ${email}, Password: ${password}`);
+            // Signup Data
+            const signupData = {
+                email: email,
+                password: password,
+                role: "admin",
+                shop_name: shopName
+            };
+
+            try {
+                const response = await fetch(API_URL, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(signupData)
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    alert("Admin Signup Successful! Redirecting...");
+                    localStorage.setItem("token", data.access_token);
+                    localStorage.setItem("role", "admin");
+                    window.location.href = "seller-dashboard.html";
+                } else {
+                    alert(data.error);
+                }
+            } catch (error) {
+                alert("Error signing up. Please try again.");
+            }
         });
     </script>
 
