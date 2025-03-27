@@ -5,9 +5,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="login.css">
-    <script defer src="login.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #FFD700, #FFFACD);
+            /* Yellow gradient */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Floating Animation */
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Centering Container */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Login & Signup Card */
+        .card {
+            background: rgba(0, 0, 0, 0.9);
+            /* Black */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+            backdrop-filter: blur(10px);
+            animation: float 3s infinite ease-in-out;
+        }
+
+        /* Title */
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #FFD700;
+            /* Yellow */
+            margin-bottom: 20px;
+        }
+
+        /* Role Selection Buttons */
+        .role-selection {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .role-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid #dbb90f;
+            background: none;
+            color: #dbb90f;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .role-btn:hover {
+            background: #dbb90f;
+            color: white;
+        }
+
+        /* Highlight Selected Role */
+        .role-btn.selected {
+            background: #dbb90f;
+            color: white;
+        }
+
+        /* Input Fields */
+        .input-group {
+            position: relative;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            border: 2px solid #FFD700;
+            /* Yellow border */
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            /* White transparent */
+            padding: 8px;
+        }
+
+        /* Input Field Styling */
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            outline: none;
+            background: transparent;
+            color: white;
+            /* White text */
+        }
+
+        /* Icons */
+        .input-group .icon {
+            margin-right: 10px;
+            font-size: 18px;
+            color: #FFD700;
+            /* Yellow icons */
+        }
+
+        /* Login Button */
+        .login-btn {
+            width: 100%;
+            background: #FFD700;
+            /* Yellow */
+            color: black;
+            /* Black text */
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .login-btn:hover {
+            background: #FFA500;
+            /* Darker yellow (orange shade) */
+            transform: scale(1.05);
+        }
+
+        /* Register Link */
+        .register-link {
+            margin-top: 10px;
+            font-size: 14px;
+            color: white;
+        }
+
+        .register-link a {
+            color: #FFD700;
+            /* Yellow */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Error Message */
+        .error {
+            color: #FFD700;
+            font-size: 0.9rem;
+            margin-top: 5px;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -16,21 +185,78 @@
         <div class="card">
             <h2 class="title">Login</h2>
             <form id="loginForm">
-                <div class="input-group">
-                    <span class="icon">👤</span>
-                    <input type="text" id="username" placeholder="New Username" required>
+                <!-- Role Selection Buttons -->
+                <div class="role-selection">
+                    <button type="button" class="role-btn" id="admin-btn" data-role="Administrator">Administrator</button>
+                    <button type="button" class="role-btn" id="customer-btn" data-role="Customer">Customer</button>
                 </div>
+
+                <!-- Hidden Input for Selected Role -->
+                <input type="hidden" id="role" required>
+
+                <!-- Email Field -->
+                <div class="input-group">
+                    <span class="icon">📧</span>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+
+                <!-- Password Field -->
                 <div class="input-group">
                     <span class="icon">🔒</span>
                     <input type="password" id="password" placeholder="Password" required>
                 </div>
+
+                <p id="error-message" class="error">Please fill all fields correctly!</p>
+
                 <button type="submit" class="login-btn">Login</button>
-                <p class="register-link">Not registered? <a href="signup.html">SignUP</a></p>
-
-
+                <p class="register-link">Don't have an account? <a href="role.html">Sign up</a></p>
             </form>
         </div>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let selectedRole = "";
+
+            // Get role buttons
+            const roleButtons = document.querySelectorAll(".role-btn");
+
+            // Add event listener to each button
+            roleButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    // Remove 'selected' class from all buttons
+                    roleButtons.forEach(btn => btn.classList.remove("selected"));
+
+                    // Add 'selected' class to clicked button
+                    this.classList.add("selected");
+
+                    // Store selected role in hidden input
+                    selectedRole = this.getAttribute("data-role");
+                    document.getElementById("role").value = selectedRole;
+                });
+            });
+
+            // Form Submission
+            document.getElementById("loginForm").addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                const email = document.getElementById("email").value.trim();
+                const password = document.getElementById("password").value;
+                const role = document.getElementById("role").value;
+                const errorMessage = document.getElementById("error-message");
+
+                if (!role || !email || !password) {
+                    errorMessage.style.display = "block";
+                    return;
+                } else {
+                    errorMessage.style.display = "none";
+                }
+
+                console.log(`Role: ${role}, Email: ${email}, Password: ${password}`);
+                alert(`Login successful as ${role}!`);
+            });
+        });
+    </script>
 
 </body>
 

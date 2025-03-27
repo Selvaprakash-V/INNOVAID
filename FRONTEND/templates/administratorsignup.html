@@ -73,6 +73,14 @@
             transform: scale(1.05);
             box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
         }
+
+        /* Error Message Styling */
+        .error {
+            color: #FFD700;
+            font-size: 0.9rem;
+            margin-top: 5px;
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -87,22 +95,62 @@
                 <input type="text" id="shopName" placeholder="Shop Name" required>
             </div>
 
+            <!-- Email -->
+            <div class="input-group">
+                <span class="icon">📧</span>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+
             <!-- Password -->
             <div class="input-group">
                 <span class="icon">🔒</span>
                 <input type="password" id="password" placeholder="Password" required>
             </div>
 
+            <!-- Confirm Password -->
+            <div class="input-group">
+                <span class="icon">🔒</span>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+
+            <!-- Error Message -->
+            <p id="error-message" class="error">⚠️ Passwords do not match!</p>
+
             <button type="submit" class="btn">Sign Up</button>
         </form>
 
-        <p class="mt-4 text-gray-400">Already registered? <a href="login.html" class="text-yellow-300 font-semibold">Login</a></p>
+        <p class="mt-4 text-gray-400">Already registered? 
+            <a href="login.html" class="text-yellow-300 font-semibold">Login</a>
+        </p>
     </div>
 
     <script>
         document.getElementById("adminSignupForm").addEventListener("submit", function(event) {
             event.preventDefault();
-            alert("Admin Signup Successful!");
+
+            const shopName = document.getElementById("shopName").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
+            const errorMessage = document.getElementById("error-message");
+
+            // Email Validation
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                alert("Please enter a valid email address!");
+                return;
+            }
+
+            // Password Match Validation
+            if (password !== confirmPassword) {
+                errorMessage.style.display = "block";
+                return;
+            } else {
+                errorMessage.style.display = "none";
+            }
+
+            alert(`Admin Signup Successful!`);
+            console.log(`Shop Name: ${shopName}, Email: ${email}, Password: ${password}`);
         });
     </script>
 
