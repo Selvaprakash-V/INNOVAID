@@ -1,0 +1,1001 @@
+Product Name,Company Name,Product ID,Date of Purchase,Manufacture Date,Expiry Date,Expiry Remaining,Initial Stock,Units Sold,Current Stock,Reorder Threshold
+Dry Fruits,Happilo,1538,18-06-2025,1/8/2024,1/8/2025,"4 Months, 7 Days",363,211,152,17
+Juice,Real,2109,23-10-2024,14-10-2024,13-12-2024,"8 Months, 21 Days",220,140,80,28
+Tomato Ketchup,Heinz,2055,31-07-2024,3/5/2024,3/5/2025,"1 Months, 7 Days",359,280,79,19
+Rice,India Gate,7422,14-01-2025,1/5/2024,1/5/2025,"1 Months, 5 Days",161,52,109,18
+Instant Noodles,Maggi,3663,30-03-2025,3/2/2025,2/8/2025,"4 Months, 8 Days",500,229,271,25
+Soft Drink,Coca Cola,6182,17-04-2024,11/11/2023,9/5/2024,"1 Months, 13 Days",64,22,42,11
+Cereal,Kellogg's,9633,5/7/2024,3/6/2024,30-11-2024,"8 Months, 8 Days",221,206,15,36
+Hand Sanitizer,Dettol,1991,25-01-2024,26-12-2023,25-12-2025,"9 Months, 3 Days",304,215,89,40
+Coffee,Nescafe,2118,24-04-2025,6/2/2025,6/2/2026,"10 Months, 16 Days",147,126,21,49
+Tomato Ketchup,Heinz,2890,5/2/2025,24-09-2024,24-09-2025,"6 Months, 1 Days",92,31,61,48
+Bread,Britannia,5018,20-10-2023,19-10-2023,26-10-2023,"7 Months, 2 Days",71,14,57,39
+Detergent Powder,Surf Excel,3013,13-12-2025,21-03-2024,21-03-2026,"11 Months, 29 Days",402,344,58,15
+Detergent Powder,Surf Excel,7923,3/3/2025,29-08-2024,29-08-2026,"1 Years, 5 Months, 5 Days",211,208,3,17
+Oil,Fortune,4800,5/11/2023,22-09-2023,21-09-2024,"5 Months, 28 Days",97,74,23,30
+Cheese,Britannia,7775,17-04-2025,3/1/2025,2/7/2025,"3 Months, 7 Days",113,19,94,18
+Dry Fruits,Happilo,6381,17-05-2024,7/1/2024,6/1/2025,"9 Months, 15 Days",233,229,4,44
+Instant Noodles,Maggi,3344,17-08-2023,9/7/2023,5/1/2024,"9 Months, 13 Days",179,110,69,35
+Tomato Ketchup,Heinz,1672,13-12-2023,13-10-2023,12/10/2024,"6 Months, 19 Days",233,127,106,34
+Cereal,Kellogg's,3110,19-10-2023,22-05-2023,18-11-2023,"7 Months, 25 Days",306,207,99,12
+Sugar,Madhur,2965,12/8/2026,10/12/2024,10/12/2026,"1 Years, 8 Months, 18 Days",273,11,262,33
+Chocolate,Cadbury,4755,8/4/2025,15-07-2024,11/4/2025,15 Days,393,275,118,33
+Energy Drink,Red Bull,8544,30-04-2024,25-04-2024,24-07-2024,"3 Months, 29 Days",490,385,105,26
+Frozen Vegetables,Safal,9549,19-11-2024,20-01-2024,19-01-2025,"9 Months, 28 Days",259,202,57,36
+Mushrooms,Golden Harvest,8192,20-01-2025,15-01-2025,22-01-2025,"10 Months, 1 Days",372,178,194,25
+Ice Cream,Kwality Walls,1269,22-11-2024,12/8/2024,8/2/2025,"10 Months, 18 Days",478,461,17,33
+Tomato Ketchup,Heinz,6049,4/6/2024,7/9/2023,6/9/2024,"5 Months, 13 Days",80,17,63,21
+Detergent Powder,Surf Excel,5032,9/5/2024,8/7/2023,7/7/2025,"3 Months, 12 Days",308,189,119,15
+Chocolate,Cadbury,7896,6/2/2024,19-01-2024,15-10-2024,"6 Months, 22 Days",306,170,136,15
+Coffee,Nescafe,5283,22-02-2025,21-03-2024,21-03-2025,"11 Months, 29 Days",457,192,265,30
+Cheese,Britannia,3535,16-03-2025,19-11-2024,18-05-2025,"1 Months, 22 Days",218,98,120,46
+Energy Drink,Red Bull,3033,5/10/2024,27-07-2024,25-10-2024,"7 Months, 2 Days",173,101,72,37
+Soft Drink,Coca Cola,3320,15-02-2024,11/1/2024,9/7/2024,"3 Months, 14 Days",375,111,264,11
+Juice,Real,9737,14-06-2024,12/5/2024,11/7/2024,"3 Months, 16 Days",155,70,85,11
+Toothpaste,Colgate,7069,3/9/2024,25-04-2024,25-04-2026,"1 Years, 29 Days",316,139,177,44
+Energy Drink,Red Bull,4263,21-08-2024,29-07-2024,27-10-2024,"7 Months, 4 Days",115,12,103,28
+Juice,Real,7632,31-08-2024,28-07-2024,26-09-2024,"6 Months, 3 Days",157,22,135,18
+Oil,Fortune,6349,9/6/2025,2/2/2025,2/2/2026,"10 Months, 12 Days",221,77,144,43
+Green Tea,Lipton,2416,11/9/2023,29-08-2023,28-08-2024,"5 Months, 4 Days",385,351,34,27
+Soap,Lux,2420,23-08-2023,13-05-2023,12/5/2025,"1 Months, 16 Days",394,78,316,47
+Rice,India Gate,9901,11/6/2025,21-06-2024,21-06-2025,"2 Months, 26 Days",219,219,0,15
+Detergent Powder,Surf Excel,3577,2/6/2025,4/3/2024,4/3/2026,"11 Months, 12 Days",98,17,81,44
+Sugar,Madhur,1834,14-04-2024,20-10-2023,19-10-2025,"6 Months, 26 Days",282,47,235,40
+Instant Noodles,Maggi,5124,3/2/2025,20-12-2024,18-06-2025,"2 Months, 23 Days",342,170,172,21
+Energy Drink,Red Bull,3778,11/6/2023,2/6/2023,31-08-2023,"5 Months, 6 Days",157,42,115,42
+Sanitary Napkins,Whisper,6239,12/11/2024,1/12/2023,30-11-2025,"8 Months, 8 Days",73,31,42,32
+Salt,Tata,2725,3/6/2024,6/5/2024,6/5/2026,"1 Years, 1 Months, 10 Days",295,217,78,16
+Shaving Foam,Gillette,9219,26-07-2025,12/6/2024,12/6/2026,"1 Years, 2 Months, 17 Days",234,35,199,15
+Milk,Amul,5420,15-10-2023,13-10-2023,23-10-2023,"6 Months, 29 Days",469,110,359,36
+Bread,Britannia,9635,14-11-2024,9/11/2024,16-11-2024,"7 Months, 24 Days",376,107,269,45
+Chocolate,Cadbury,6843,5/8/2024,14-04-2024,9/1/2025,"9 Months, 18 Days",288,259,29,23
+Bread,Britannia,9146,28-09-2023,22-09-2023,29-09-2023,"6 Months, 5 Days",224,40,184,38
+Soap,Lux,2993,18-12-2025,5/9/2024,5/9/2026,"1 Years, 5 Months, 12 Days",259,177,82,41
+Cheese,Britannia,1146,10/8/2023,3/6/2023,30-11-2023,"8 Months, 7 Days",70,42,28,46
+Sugar,Madhur,6545,15-06-2026,25-01-2025,25-01-2027,"1 Years, 10 Months, 4 Days",148,57,91,17
+Cheese,Britannia,8456,12/9/2023,31-05-2023,27-11-2023,"8 Months, 4 Days",100,66,34,23
+Green Tea,Lipton,8117,15-11-2023,27-09-2023,26-09-2024,"6 Months, 3 Days",345,275,70,23
+Rice,India Gate,5748,3/12/2023,3/4/2023,2/4/2024,6 Days,339,283,56,17
+Coffee,Nescafe,8812,21-11-2024,14-11-2024,14-11-2025,"7 Months, 22 Days",132,38,94,21
+Eggs,Suguna Foods,5836,23-02-2024,11/2/2024,3/3/2024,"11 Months, 11 Days",137,48,89,43
+Bread,Britannia,3768,13-09-2024,11/9/2024,18-09-2024,"5 Months, 25 Days",375,247,128,35
+Soap,Lux,8212,28-01-2025,17-07-2023,16-07-2025,"3 Months, 21 Days",403,48,355,42
+Tomato Ketchup,Heinz,5956,28-05-2025,28-01-2025,28-01-2026,"10 Months, 7 Days",255,217,38,21
+Salt,Tata,8794,25-02-2024,15-04-2023,14-04-2025,18 Days,168,23,145,12
+Green Tea,Lipton,5167,14-10-2024,7/9/2024,7/9/2025,"5 Months, 14 Days",139,98,41,32
+Detergent Powder,Surf Excel,4766,27-06-2025,17-02-2024,16-02-2026,"10 Months, 26 Days",113,17,96,13
+Frozen Vegetables,Safal,4972,22-01-2024,24-09-2023,23-09-2024,6 Months,196,177,19,39
+Chicken,Suguna Foods,7812,18-05-2023,18-05-2023,23-05-2023,"1 Months, 26 Days",374,181,193,20
+Bread,Britannia,7685,8/8/2024,6/8/2024,13-08-2024,"4 Months, 19 Days",235,67,168,13
+Protein Powder,Optimum Nutrition,2782,20-10-2024,16-07-2024,16-07-2026,"1 Years, 3 Months, 21 Days",138,119,19,44
+Toothpaste,Colgate,1823,27-12-2025,18-07-2024,18-07-2026,"1 Years, 3 Months, 23 Days",401,22,379,19
+Frozen Vegetables,Safal,1961,29-09-2024,28-10-2023,27-10-2024,"7 Months, 4 Days",198,99,99,32
+Milk,Amul,7238,20-06-2024,15-06-2024,25-06-2024,3 Months,165,84,81,21
+Bread,Britannia,3592,19-01-2025,13-01-2025,20-01-2025,"9 Months, 29 Days",278,78,200,27
+Sugar,Madhur,4506,15-02-2025,18-06-2023,17-06-2025,"2 Months, 22 Days",253,44,209,21
+Mushrooms,Golden Harvest,7991,7/5/2023,2/5/2023,9/5/2023,"1 Months, 12 Days",233,210,23,34
+Dry Fruits,Happilo,1977,22-02-2025,27-03-2024,27-03-2025,0 Days,434,175,259,39
+Cheese,Britannia,6945,12/12/2024,13-08-2024,9/2/2025,"10 Months, 19 Days",327,212,115,46
+Energy Drink,Red Bull,4850,27-02-2024,5/12/2023,4/3/2024,"11 Months, 12 Days",58,49,9,35
+Rice,India Gate,7316,27-04-2025,25-12-2024,25-12-2025,"9 Months, 3 Days",150,106,44,28
+Yogurt,Nestle,1553,30-09-2023,26-09-2023,10/10/2023,"6 Months, 16 Days",249,70,179,43
+Rice,India Gate,2141,8/9/2024,1/4/2024,1/4/2025,5 Days,495,344,151,18
+Toothpaste,Colgate,6596,28-10-2025,29-11-2024,29-11-2026,"1 Years, 8 Months, 7 Days",103,15,88,42
+Chips,Lays,5242,28-08-2023,25-06-2023,23-10-2023,"6 Months, 29 Days",362,167,195,40
+Dishwashing Liquid,Vim,6161,15-07-2024,23-12-2023,22-12-2025,9 Months,467,433,34,33
+Energy Drink,Red Bull,3480,5/11/2023,15-09-2023,14-12-2023,"8 Months, 21 Days",433,410,23,29
+Dry Fruits,Happilo,7665,16-05-2024,21-06-2023,20-06-2024,"2 Months, 25 Days",99,65,34,40
+Yogurt,Nestle,6260,7/6/2023,29-05-2023,12/6/2023,"2 Months, 16 Days",391,122,269,35
+Eggs,Suguna Foods,3291,27-06-2023,12/6/2023,3/7/2023,"3 Months, 7 Days",292,37,255,33
+Peanut Butter,Sundrop,6351,17-06-2023,10/5/2023,9/5/2024,"1 Months, 13 Days",264,123,141,34
+Bread,Britannia,4455,19-05-2024,15-05-2024,22-05-2024,"1 Months, 26 Days",334,186,148,32
+Biscuits,Parle,6872,23-03-2024,1/1/2024,31-03-2024,4 Days,118,80,38,42
+Toothpaste,Colgate,2043,25-07-2025,31-10-2023,30-10-2025,"7 Months, 7 Days",132,112,20,28
+Chips,Lays,7708,30-11-2023,6/8/2023,4/12/2023,"8 Months, 11 Days",353,37,316,38
+Chocolate,Cadbury,6139,28-03-2024,20-07-2023,15-04-2024,19 Days,227,155,72,50
+Bread,Britannia,3712,10/7/2024,4/7/2024,11/7/2024,"3 Months, 16 Days",444,258,186,27
+Chips,Lays,9895,14-08-2023,11/5/2023,8/9/2023,"5 Months, 14 Days",422,263,159,11
+Salt,Tata,8357,22-03-2025,7/3/2025,7/3/2027,"1 Years, 11 Months, 15 Days",473,74,399,47
+Tomato Ketchup,Heinz,1397,19-07-2024,13-12-2023,12/12/2024,"8 Months, 20 Days",300,164,136,48
+Cereal,Kellogg's,9340,19-11-2024,4/6/2024,1/12/2024,"8 Months, 9 Days",69,11,58,26
+Peanut Butter,Sundrop,8304,17-02-2025,25-06-2024,25-06-2025,3 Months,498,74,424,21
+Green Tea,Lipton,7064,30-11-2024,27-05-2024,27-05-2025,"2 Months, 1 Days",471,17,454,31
+Shaving Foam,Gillette,9022,23-11-2026,22-12-2024,22-12-2026,"1 Years, 9 Months",289,285,4,41
+Toothpaste,Colgate,2816,5/4/2026,24-04-2024,24-04-2026,"1 Years, 28 Days",448,233,215,30
+Hand Sanitizer,Dettol,4537,11/7/2025,30-05-2024,30-05-2026,"1 Years, 2 Months, 4 Days",237,236,1,12
+Rice,India Gate,6921,16-05-2025,28-05-2024,28-05-2025,"2 Months, 2 Days",187,121,66,18
+Instant Noodles,Maggi,6072,9/12/2023,11/10/2023,8/4/2024,12 Days,96,92,4,31
+Toothpaste,Colgate,4375,13-07-2025,9/12/2024,9/12/2026,"1 Years, 8 Months, 17 Days",498,368,130,40
+Toothpaste,Colgate,7035,15-05-2025,23-01-2024,22-01-2026,"10 Months, 1 Days",458,180,278,12
+Yogurt,Nestle,9062,6/7/2023,6/7/2023,20-07-2023,"3 Months, 24 Days",339,38,301,12
+Milk,Amul,6442,10/3/2025,2/3/2025,12/3/2025,"11 Months, 20 Days",282,115,167,40
+Shampoo,Dove,9092,25-09-2025,27-12-2024,27-12-2026,"1 Years, 9 Months, 5 Days",162,97,65,11
+Biscuits,Parle,8875,20-06-2023,1/5/2023,30-07-2023,"4 Months, 4 Days",489,370,119,16
+Dishwashing Liquid,Vim,4036,29-12-2026,21-03-2025,21-03-2027,"1 Years, 11 Months, 29 Days",298,51,247,25
+Rice,India Gate,8107,31-08-2025,22-01-2025,22-01-2026,"10 Months, 1 Days",431,58,373,22
+Frozen Vegetables,Safal,2343,9/7/2023,7/5/2023,6/5/2024,"1 Months, 10 Days",339,126,213,20
+Eggs,Suguna Foods,7135,3/12/2024,29-11-2024,20-12-2024,"8 Months, 28 Days",297,77,220,36
+Pasta,Barilla,2734,27-02-2024,11/2/2024,9/8/2024,"4 Months, 15 Days",244,179,65,39
+Yogurt,Nestle,2835,6/3/2025,24-02-2025,10/3/2025,"11 Months, 18 Days",73,17,56,23
+Salt,Tata,2999,1/11/2024,13-08-2024,13-08-2026,"1 Years, 4 Months, 19 Days",246,204,42,44
+Salt,Tata,4052,12/11/2025,6/2/2024,5/2/2026,"10 Months, 15 Days",396,31,365,49
+Protein Powder,Optimum Nutrition,2074,29-08-2024,2/9/2023,1/9/2025,"5 Months, 8 Days",292,278,14,40
+Eggs,Suguna Foods,2585,3/1/2025,16-12-2024,6/1/2025,"9 Months, 15 Days",67,21,46,21
+Protein Powder,Optimum Nutrition,3553,11/12/2024,24-08-2024,24-08-2026,"1 Years, 5 Months",484,385,99,23
+Butter,Amul,6331,7/8/2023,1/8/2023,30-10-2023,"7 Months, 6 Days",331,331,0,26
+Sugar,Madhur,4136,15-01-2025,22-05-2023,21-05-2025,"1 Months, 25 Days",409,388,21,39
+Soft Drink,Coca Cola,7220,12/3/2024,1/1/2024,29-06-2024,"3 Months, 4 Days",368,28,340,20
+Sanitary Napkins,Whisper,2660,5/10/2025,11/2/2025,11/2/2027,"1 Years, 10 Months, 21 Days",388,334,54,11
+Salt,Tata,2556,23-12-2023,10/4/2023,9/4/2025,13 Days,155,105,50,36
+Detergent Powder,Surf Excel,7397,19-07-2024,9/2/2024,8/2/2026,"10 Months, 18 Days",318,128,190,22
+Bread,Britannia,2235,18-04-2023,14-04-2023,21-04-2023,24 Days,406,95,311,34
+Dry Fruits,Happilo,8933,13-07-2025,23-07-2024,23-07-2025,"3 Months, 28 Days",344,169,175,36
+Toothpaste,Colgate,5899,5/12/2025,26-03-2024,26-03-2026,"12 Months, 4 Days",112,22,90,26
+Sugar,Madhur,2339,25-12-2024,20-10-2024,20-10-2026,"1 Years, 6 Months, 27 Days",104,75,29,16
+Toothpaste,Colgate,3984,14-07-2025,2/10/2024,2/10/2026,"1 Years, 6 Months, 9 Days",389,133,256,23
+Shampoo,Dove,6237,2/7/2025,18-01-2024,17-01-2026,"9 Months, 26 Days",83,34,49,17
+Toothpaste,Colgate,8363,15-04-2025,27-01-2025,27-01-2027,"1 Years, 10 Months, 6 Days",189,122,67,12
+Toothpaste,Colgate,3622,11/7/2024,17-05-2023,16-05-2025,"1 Months, 20 Days",423,292,131,34
+Toothpaste,Colgate,3669,24-04-2025,25-01-2024,24-01-2026,"10 Months, 3 Days",157,59,98,16
+Green Tea,Lipton,2888,13-11-2024,10/12/2023,9/12/2024,"8 Months, 17 Days",131,118,13,42
+Soap,Lux,4325,18-11-2024,17-11-2024,17-11-2026,"1 Years, 7 Months, 25 Days",221,140,81,26
+Eggs,Suguna Foods,1041,3/3/2024,24-02-2024,16-03-2024,"11 Months, 24 Days",342,132,210,44
+Hand Sanitizer,Dettol,7569,18-09-2024,21-10-2023,20-10-2025,"6 Months, 27 Days",99,97,2,15
+Chicken,Suguna Foods,8408,5/3/2025,4/3/2025,9/3/2025,"11 Months, 17 Days",128,125,3,20
+Biscuits,Parle,7395,26-10-2024,26-10-2024,24-01-2025,"10 Months, 3 Days",480,218,262,34
+Protein Powder,Optimum Nutrition,3078,14-10-2025,17-07-2024,17-07-2026,"1 Years, 3 Months, 22 Days",322,295,27,26
+Hand Sanitizer,Dettol,5534,27-10-2025,16-03-2025,16-03-2027,"1 Years, 11 Months, 24 Days",253,97,156,22
+Sugar,Madhur,5170,5/1/2025,4/2/2024,3/2/2026,"10 Months, 13 Days",434,313,121,41
+Green Tea,Lipton,6630,12/7/2024,5/9/2023,4/9/2024,"5 Months, 11 Days",362,208,154,45
+Chips,Lays,7907,8/2/2025,3/11/2024,3/3/2025,"11 Months, 11 Days",272,221,51,22
+Dishwashing Liquid,Vim,9382,16-01-2024,28-04-2023,27-04-2025,"1 Months, 1 Days",264,90,174,22
+Mushrooms,Golden Harvest,9885,6/12/2023,2/12/2023,9/12/2023,"8 Months, 16 Days",343,55,288,20
+Soft Drink,Coca Cola,6346,30-10-2023,24-08-2023,20-02-2024,"10 Months, 29 Days",343,22,321,17
+Detergent Powder,Surf Excel,4540,14-02-2026,2/4/2024,2/4/2026,"1 Years, 6 Days",428,67,361,38
+Shampoo,Dove,2724,10/12/2024,4/2/2024,3/2/2026,"10 Months, 13 Days",311,90,221,39
+Instant Noodles,Maggi,4380,9/5/2025,27-01-2025,26-07-2025,"4 Months, 1 Days",319,181,138,24
+Coffee,Nescafe,3194,23-08-2025,5/1/2025,5/1/2026,"9 Months, 14 Days",484,185,299,15
+Sanitary Napkins,Whisper,5071,9/4/2025,16-07-2024,16-07-2026,"1 Years, 3 Months, 21 Days",95,53,42,24
+Shampoo,Dove,4095,26-11-2026,16-01-2025,16-01-2027,"1 Years, 9 Months, 25 Days",480,433,47,39
+Mushrooms,Golden Harvest,3111,14-02-2024,12/2/2024,19-02-2024,"10 Months, 28 Days",400,268,132,48
+Hand Sanitizer,Dettol,7115,28-04-2024,20-07-2023,19-07-2025,"3 Months, 24 Days",331,132,199,40
+Cereal,Kellogg's,9535,6/6/2024,25-02-2024,23-08-2024,"4 Months, 29 Days",210,63,147,12
+Sanitary Napkins,Whisper,5947,29-04-2025,21-02-2025,21-02-2027,"1 Years, 11 Months, 1 Days",102,44,58,34
+Cheese,Britannia,8946,7/8/2025,11/2/2025,10/8/2025,"4 Months, 16 Days",148,72,76,13
+Salt,Tata,5479,8/6/2024,28-04-2024,28-04-2026,"1 Years, 1 Months, 2 Days",402,265,137,44
+Toothpaste,Colgate,4460,18-12-2024,31-03-2024,31-03-2026,"1 Years, 4 Days",153,27,126,30
+Ice Cream,Kwality Walls,1198,7/10/2024,17-08-2024,13-02-2025,"10 Months, 23 Days",474,48,426,20
+Milk,Amul,1132,5/8/2023,2/8/2023,12/8/2023,"4 Months, 17 Days",288,134,154,44
+Soap,Lux,1145,15-06-2024,26-07-2023,25-07-2025,4 Months,196,153,43,45
+Instant Noodles,Maggi,8646,8/11/2023,9/10/2023,6/4/2024,10 Days,490,443,47,11
+Bread,Britannia,3035,3/4/2023,2/4/2023,9/4/2023,12 Days,351,332,19,17
+Bread,Britannia,7693,28-11-2023,27-11-2023,4/12/2023,"8 Months, 11 Days",444,199,245,30
+Soft Drink,Coca Cola,4160,9/12/2023,25-08-2023,21-02-2024,11 Months,212,201,11,38
+Tomato Ketchup,Heinz,3881,14-03-2024,10/9/2023,9/9/2024,"5 Months, 16 Days",107,61,46,41
+Ice Cream,Kwality Walls,3217,15-03-2024,14-03-2024,10/9/2024,"5 Months, 17 Days",407,393,14,22
+Tomato Ketchup,Heinz,5486,24-09-2025,29-01-2025,29-01-2026,"10 Months, 8 Days",294,115,179,11
+Rice,India Gate,6379,12/9/2023,8/8/2023,7/8/2024,"4 Months, 13 Days",92,50,42,11
+Ice Cream,Kwality Walls,3847,6/3/2024,27-02-2024,25-08-2024,"5 Months, 1 Days",246,103,143,22
+Milk,Amul,6401,4/9/2024,30-08-2024,9/9/2024,"5 Months, 16 Days",348,204,144,28
+Shaving Foam,Gillette,4349,5/10/2024,7/8/2023,6/8/2025,"4 Months, 12 Days",349,258,91,32
+Dishwashing Liquid,Vim,2233,25-09-2025,27-10-2024,27-10-2026,"1 Years, 7 Months, 4 Days",152,105,47,21
+Biscuits,Parle,9225,23-07-2023,15-07-2023,13-10-2023,"6 Months, 19 Days",432,398,34,15
+Pasta,Barilla,4643,5/9/2023,16-05-2023,12/11/2023,"7 Months, 19 Days",74,11,63,11
+Rice,India Gate,7466,18-02-2024,9/8/2023,8/8/2024,"4 Months, 14 Days",51,41,10,36
+Instant Noodles,Maggi,1691,16-02-2025,23-10-2024,21-04-2025,25 Days,250,134,116,36
+Soft Drink,Coca Cola,6195,3/1/2025,2/11/2024,1/5/2025,"1 Months, 5 Days",205,179,26,25
+Shaving Foam,Gillette,5294,28-06-2025,5/3/2024,5/3/2026,"11 Months, 13 Days",118,82,36,49
+Instant Noodles,Maggi,7429,7/8/2023,23-07-2023,19-01-2024,"9 Months, 27 Days",155,53,102,34
+Chocolate,Cadbury,1646,10/5/2025,13-01-2025,10/10/2025,"6 Months, 17 Days",319,296,23,21
+Green Tea,Lipton,7191,21-03-2024,13-06-2023,12/6/2024,"2 Months, 17 Days",112,48,64,37
+Shampoo,Dove,6797,1/10/2025,21-08-2024,21-08-2026,"1 Years, 4 Months, 27 Days",478,64,414,21
+Chocolate,Cadbury,4223,1/8/2024,11/1/2024,7/10/2024,"6 Months, 14 Days",391,145,246,41
+Milk,Amul,6189,22-11-2024,21-11-2024,1/12/2024,"8 Months, 9 Days",382,327,55,10
+Peanut Butter,Sundrop,4924,15-10-2023,12/5/2023,11/5/2024,"1 Months, 15 Days",83,22,61,23
+Shampoo,Dove,8179,2/8/2024,12/1/2024,11/1/2026,"9 Months, 20 Days",220,91,129,42
+Chicken,Suguna Foods,1751,20-11-2023,19-11-2023,24-11-2023,"8 Months, 1 Days",410,181,229,15
+Energy Drink,Red Bull,1575,3/10/2023,19-08-2023,17-11-2023,"7 Months, 24 Days",174,65,109,44
+Dishwashing Liquid,Vim,7984,1/3/2026,29-12-2024,29-12-2026,"1 Years, 9 Months, 7 Days",432,268,164,41
+Tomato Ketchup,Heinz,2017,1/12/2023,23-06-2023,22-06-2024,"2 Months, 27 Days",491,386,105,41
+Mushrooms,Golden Harvest,3131,5/2/2025,4/2/2025,11/2/2025,"10 Months, 21 Days",262,250,12,45
+Protein Powder,Optimum Nutrition,4251,6/11/2023,17-08-2023,16-08-2025,"4 Months, 22 Days",75,69,6,14
+Tomato Ketchup,Heinz,8661,14-04-2024,14-06-2023,13-06-2024,"2 Months, 18 Days",435,227,208,49
+Biscuits,Parle,4922,10/9/2024,21-06-2024,19-09-2024,"5 Months, 26 Days",157,79,78,41
+Chocolate,Cadbury,3094,16-04-2024,14-08-2023,10/5/2024,"1 Months, 14 Days",298,248,50,14
+Eggs,Suguna Foods,3501,28-09-2023,16-09-2023,7/10/2023,"6 Months, 13 Days",146,23,123,24
+Tomato Ketchup,Heinz,1715,6/4/2025,11/10/2024,11/10/2025,"6 Months, 18 Days",346,32,314,24
+Dishwashing Liquid,Vim,3434,21-06-2025,2/1/2025,2/1/2027,"1 Years, 9 Months, 11 Days",493,342,151,39
+Chicken,Suguna Foods,9425,27-03-2024,25-03-2024,30-03-2024,3 Days,65,34,31,30
+Ice Cream,Kwality Walls,2929,15-10-2024,22-04-2024,19-10-2024,"6 Months, 26 Days",311,177,134,10
+Chicken,Suguna Foods,6007,25-08-2023,24-08-2023,29-08-2023,"5 Months, 4 Days",119,41,78,50
+Bread,Britannia,2178,4/8/2023,29-07-2023,5/8/2023,"4 Months, 10 Days",344,49,295,36
+Mushrooms,Golden Harvest,9123,12/4/2023,10/4/2023,17-04-2023,20 Days,373,68,305,37
+Bread,Britannia,6926,9/2/2024,7/2/2024,14-02-2024,"10 Months, 23 Days",448,365,83,28
+Dry Fruits,Happilo,3420,10/12/2023,30-04-2023,29-04-2024,"1 Months, 3 Days",296,74,222,30
+Shaving Foam,Gillette,6619,19-10-2023,2/5/2023,1/5/2025,"1 Months, 5 Days",235,87,148,19
+Yogurt,Nestle,2099,7/5/2024,26-04-2024,10/5/2024,"1 Months, 14 Days",448,445,3,13
+Milk,Amul,9205,22-10-2024,16-10-2024,26-10-2024,"7 Months, 3 Days",327,13,314,33
+Pasta,Barilla,5980,7/3/2024,13-10-2023,10/4/2024,14 Days,184,139,45,19
+Tomato Ketchup,Heinz,3129,15-08-2025,29-09-2024,29-09-2025,"6 Months, 6 Days",493,457,36,50
+Soft Drink,Coca Cola,5797,5/5/2025,24-01-2025,23-07-2025,"3 Months, 28 Days",366,258,108,34
+Yogurt,Nestle,6954,15-01-2024,7/1/2024,21-01-2024,"9 Months, 29 Days",229,106,123,11
+Bread,Britannia,7229,12/1/2025,6/1/2025,13-01-2025,"9 Months, 22 Days",204,114,90,50
+Milk,Amul,4706,2/7/2024,2/7/2024,12/7/2024,"3 Months, 17 Days",249,238,11,48
+Chicken,Suguna Foods,8659,26-10-2024,23-10-2024,28-10-2024,"7 Months, 5 Days",150,102,48,20
+Bread,Britannia,6586,26-12-2024,26-12-2024,2/1/2025,"9 Months, 11 Days",465,261,204,44
+Cheese,Britannia,7180,11/6/2024,31-12-2023,28-06-2024,"3 Months, 3 Days",74,67,7,36
+Toothpaste,Colgate,4252,15-02-2025,20-04-2023,19-04-2025,23 Days,441,187,254,20
+Hand Sanitizer,Dettol,1274,1/8/2026,13-11-2024,13-11-2026,"1 Years, 7 Months, 21 Days",258,171,87,39
+Dishwashing Liquid,Vim,7606,20-12-2025,29-05-2024,29-05-2026,"1 Years, 2 Months, 3 Days",292,17,275,31
+Shampoo,Dove,5030,16-11-2025,25-03-2025,25-03-2027,"1 Years, 12 Months, 3 Days",211,111,100,31
+Green Tea,Lipton,6408,25-06-2024,20-11-2023,19-11-2024,"7 Months, 27 Days",408,309,99,13
+Rice,India Gate,4386,28-02-2025,6/10/2024,6/10/2025,"6 Months, 13 Days",56,24,32,29
+Coffee,Nescafe,8415,6/7/2025,23-03-2025,23-03-2026,"12 Months, 1 Days",353,292,61,43
+Dry Fruits,Happilo,8632,25-09-2024,24-07-2024,24-07-2025,"3 Months, 29 Days",110,70,40,43
+Energy Drink,Red Bull,5871,27-04-2024,27-02-2024,27-05-2024,"2 Months, 1 Days",107,67,40,23
+Bread,Britannia,2766,8/10/2023,5/10/2023,12/10/2023,"6 Months, 18 Days",100,34,66,32
+Sugar,Madhur,8524,17-08-2026,19-02-2025,19-02-2027,"1 Years, 10 Months, 29 Days",132,55,77,10
+Pasta,Barilla,8557,11/12/2023,19-08-2023,15-02-2024,"10 Months, 24 Days",494,67,427,26
+Bread,Britannia,2369,6/4/2024,2/4/2024,9/4/2024,13 Days,389,298,91,20
+Shampoo,Dove,5508,30-04-2026,15-08-2024,15-08-2026,"1 Years, 4 Months, 21 Days",145,76,69,34
+Toothpaste,Colgate,7941,22-07-2025,20-06-2024,20-06-2026,"1 Years, 2 Months, 25 Days",358,196,162,13
+Oil,Fortune,4193,1/11/2023,5/6/2023,4/6/2024,"2 Months, 9 Days",497,65,432,25
+Instant Noodles,Maggi,3015,25-03-2024,28-09-2023,26-03-2024,"12 Months, 4 Days",426,388,38,49
+Hand Sanitizer,Dettol,4785,28-04-2025,11/2/2024,10/2/2026,"10 Months, 20 Days",225,66,159,20
+Milk,Amul,8218,15-10-2023,13-10-2023,23-10-2023,"6 Months, 29 Days",102,18,84,50
+Dry Fruits,Happilo,6542,6/2/2024,22-04-2023,21-04-2024,25 Days,50,28,22,14
+Protein Powder,Optimum Nutrition,4877,6/6/2025,8/8/2023,7/8/2025,"4 Months, 13 Days",59,13,46,42
+Shaving Foam,Gillette,9593,7/5/2025,22-03-2024,22-03-2026,12 Months,410,128,282,13
+Peanut Butter,Sundrop,6060,2/2/2025,29-03-2024,29-03-2025,2 Days,402,315,87,24
+Rice,India Gate,6253,24-07-2023,2/4/2023,1/4/2024,5 Days,65,29,36,29
+Energy Drink,Red Bull,5737,8/11/2024,14-10-2024,12/1/2025,"9 Months, 21 Days",108,42,66,17
+Bread,Britannia,5139,21-09-2023,16-09-2023,23-09-2023,"5 Months, 29 Days",473,453,20,49
+Butter,Amul,5243,8/2/2024,11/12/2023,10/3/2024,"11 Months, 18 Days",115,57,58,22
+Ice Cream,Kwality Walls,2255,6/9/2024,20-05-2024,16-11-2024,"7 Months, 24 Days",56,34,22,23
+Dishwashing Liquid,Vim,8375,11/7/2024,20-09-2023,19-09-2025,"5 Months, 26 Days",419,150,269,43
+Tea,Tata Tea,2686,19-05-2025,21-05-2024,21-05-2025,"1 Months, 25 Days",478,47,431,18
+Bread,Britannia,4648,8/6/2023,3/6/2023,10/6/2023,"2 Months, 14 Days",144,36,108,44
+Juice,Real,5212,2/9/2023,22-07-2023,20-09-2023,"5 Months, 26 Days",255,22,233,31
+Green Tea,Lipton,1163,12/4/2024,25-04-2023,24-04-2024,28 Days,446,121,325,38
+Chips,Lays,4231,15-07-2024,20-04-2024,18-08-2024,"4 Months, 24 Days",441,136,305,48
+Soap,Lux,6394,9/9/2024,10/12/2023,9/12/2025,"8 Months, 17 Days",94,75,19,35
+Shaving Foam,Gillette,6340,25-11-2025,24-12-2023,23-12-2025,"9 Months, 1 Days",276,243,33,33
+Juice,Real,8170,3/9/2023,11/8/2023,10/10/2023,"6 Months, 16 Days",254,165,89,34
+Dishwashing Liquid,Vim,9675,14-06-2024,12/8/2023,11/8/2025,"4 Months, 17 Days",240,70,170,41
+Green Tea,Lipton,3879,15-04-2025,12/12/2024,12/12/2025,"8 Months, 20 Days",146,109,37,47
+Dishwashing Liquid,Vim,9223,20-02-2025,21-05-2023,20-05-2025,"1 Months, 24 Days",488,102,386,35
+Dry Fruits,Happilo,2754,18-02-2024,1/8/2023,31-07-2024,"4 Months, 6 Days",374,169,205,39
+Biscuits,Parle,4177,26-01-2024,5/1/2024,4/4/2024,8 Days,74,47,27,12
+Green Tea,Lipton,3608,13-11-2024,22-01-2024,21-01-2025,10 Months,408,72,336,21
+Peanut Butter,Sundrop,6415,30-09-2024,3/5/2024,3/5/2025,"1 Months, 7 Days",78,67,11,26
+Dry Fruits,Happilo,2921,7/6/2024,21-07-2023,20-07-2024,"3 Months, 25 Days",448,252,196,36
+Hand Sanitizer,Dettol,4652,6/4/2024,2/12/2023,1/12/2025,"8 Months, 9 Days",496,35,461,20
+Green Tea,Lipton,5100,30-08-2024,29-05-2024,29-05-2025,"2 Months, 3 Days",241,23,218,27
+Milk,Amul,4071,25-11-2023,17-11-2023,27-11-2023,"8 Months, 4 Days",112,55,57,25
+Detergent Powder,Surf Excel,3728,2/6/2026,10/2/2025,10/2/2027,"1 Years, 10 Months, 20 Days",424,266,158,25
+Cheese,Britannia,4418,5/6/2023,28-04-2023,25-10-2023,"7 Months, 1 Days",107,75,32,43
+Peanut Butter,Sundrop,9167,26-07-2024,18-02-2024,17-02-2025,"10 Months, 27 Days",408,99,309,48
+Chicken,Suguna Foods,9190,7/4/2023,6/4/2023,11/4/2023,14 Days,211,44,167,16
+Butter,Amul,1814,11/12/2023,10/12/2023,9/3/2024,"11 Months, 17 Days",335,166,169,17
+Dishwashing Liquid,Vim,6607,31-12-2024,30-06-2023,29-06-2025,"3 Months, 4 Days",299,219,80,27
+Milk,Amul,5476,20-11-2023,14-11-2023,24-11-2023,"8 Months, 1 Days",420,156,264,40
+Mayonnaise,Hellmann's,5760,11/9/2024,9/5/2024,5/11/2024,"7 Months, 13 Days",68,68,0,22
+Chicken,Suguna Foods,2111,1/12/2024,30-11-2024,5/12/2024,"8 Months, 13 Days",53,15,38,20
+Yogurt,Nestle,8349,15-11-2024,6/11/2024,20-11-2024,"7 Months, 28 Days",500,117,383,45
+Detergent Powder,Surf Excel,8000,15-04-2025,7/3/2024,7/3/2026,"11 Months, 15 Days",401,172,229,50
+Bread,Britannia,6261,20-05-2023,16-05-2023,23-05-2023,"1 Months, 26 Days",107,34,73,37
+Chips,Lays,4478,7/7/2023,28-05-2023,25-09-2023,"6 Months, 1 Days",457,153,304,43
+Yogurt,Nestle,5094,5/8/2023,30-07-2023,13-08-2023,"4 Months, 18 Days",292,101,191,29
+Bread,Britannia,1583,6/7/2023,30-06-2023,7/7/2023,"3 Months, 11 Days",298,280,18,38
+Salt,Tata,4033,31-08-2025,25-03-2025,25-03-2027,"1 Years, 12 Months, 3 Days",90,20,70,16
+Butter,Amul,7725,31-01-2024,14-01-2024,13-04-2024,17 Days,439,78,361,25
+Sugar,Madhur,5463,24-09-2023,3/9/2023,2/9/2025,"5 Months, 9 Days",431,81,350,16
+Rice,India Gate,1431,27-02-2025,21-07-2024,21-07-2025,"3 Months, 26 Days",304,62,242,39
+Bread,Britannia,1112,4/3/2025,3/3/2025,10/3/2025,"11 Months, 18 Days",344,192,152,25
+Rice,India Gate,8182,5/1/2026,9/2/2025,9/2/2026,"10 Months, 19 Days",317,46,271,33
+Cheese,Britannia,3745,10/9/2023,29-07-2023,25-01-2024,"10 Months, 3 Days",461,179,282,34
+Coffee,Nescafe,6383,20-06-2024,8/10/2023,7/10/2024,"6 Months, 14 Days",361,341,20,33
+Sanitary Napkins,Whisper,3565,14-05-2025,3/5/2024,3/5/2026,"1 Years, 1 Months, 7 Days",109,84,25,14
+Tomato Ketchup,Heinz,9718,28-11-2025,18-01-2025,18-01-2026,"9 Months, 27 Days",437,371,66,42
+Cereal,Kellogg's,9468,3/1/2025,15-11-2024,14-05-2025,"1 Months, 18 Days",272,170,102,26
+Rice,India Gate,4553,3/6/2025,6/8/2024,6/8/2025,"4 Months, 12 Days",144,71,73,21
+Yogurt,Nestle,8226,30-11-2023,29-11-2023,13-12-2023,"8 Months, 20 Days",232,221,11,43
+Soap,Lux,3845,17-07-2026,4/10/2024,4/10/2026,"1 Years, 6 Months, 11 Days",96,38,58,41
+Chips,Lays,4010,25-01-2025,20-12-2024,19-04-2025,23 Days,479,85,394,49
+Pasta,Barilla,8294,19-10-2023,4/10/2023,1/4/2024,5 Days,358,296,62,11
+Biscuits,Parle,3609,27-09-2023,26-09-2023,25-12-2023,"9 Months, 2 Days",326,237,89,23
+Eggs,Suguna Foods,3371,13-05-2023,26-04-2023,17-05-2023,"1 Months, 20 Days",54,35,19,13
+Tea,Tata Tea,7102,31-03-2024,9/12/2023,8/12/2024,"8 Months, 16 Days",57,32,25,42
+Dry Fruits,Happilo,7892,10/11/2023,13-07-2023,12/7/2024,"3 Months, 17 Days",357,126,231,23
+Dishwashing Liquid,Vim,1836,17-08-2025,26-04-2024,26-04-2026,"1 Years, 1 Months",497,254,243,24
+Cereal,Kellogg's,6297,26-11-2024,24-09-2024,23-03-2025,"12 Months, 1 Days",181,31,150,21
+Dishwashing Liquid,Vim,7873,29-08-2024,26-06-2024,26-06-2026,"1 Years, 3 Months, 1 Days",402,168,234,14
+Shampoo,Dove,2774,12/10/2023,10/9/2023,9/9/2025,"5 Months, 16 Days",145,123,22,38
+Butter,Amul,4580,24-11-2023,18-10-2023,16-01-2024,"9 Months, 24 Days",191,13,178,32
+Mushrooms,Golden Harvest,6720,2/4/2024,27-03-2024,3/4/2024,7 Days,189,151,38,20
+Green Tea,Lipton,6315,30-05-2025,6/9/2024,6/9/2025,"5 Months, 13 Days",343,75,268,31
+Soft Drink,Coca Cola,6883,6/3/2024,12/12/2023,9/6/2024,"2 Months, 14 Days",152,11,141,20
+Eggs,Suguna Foods,8987,7/4/2025,22-03-2025,12/4/2025,16 Days,297,50,247,34
+Shaving Foam,Gillette,6463,18-09-2026,22-11-2024,22-11-2026,"1 Years, 8 Months",467,330,137,14
+Cheese,Britannia,1865,1/12/2023,21-07-2023,17-01-2024,"9 Months, 25 Days",188,179,9,36
+Chips,Lays,6818,19-01-2025,23-12-2024,22-04-2025,26 Days,290,139,151,27
+Oil,Fortune,9230,26-12-2024,10/2/2024,9/2/2025,"10 Months, 19 Days",277,216,61,22
+Pasta,Barilla,6901,30-11-2023,1/9/2023,28-02-2024,"11 Months, 7 Days",169,52,117,32
+Biscuits,Parle,6702,28-03-2023,27-03-2023,25-06-2023,"2 Months, 29 Days",272,65,207,46
+Shaving Foam,Gillette,5195,31-08-2025,8/8/2024,8/8/2026,"1 Years, 4 Months, 14 Days",326,195,131,10
+Pasta,Barilla,2408,23-07-2023,2/6/2023,29-11-2023,"8 Months, 6 Days",421,255,166,30
+Energy Drink,Red Bull,9696,25-11-2024,5/11/2024,3/2/2025,"10 Months, 13 Days",358,96,262,25
+Cheese,Britannia,5963,16-11-2023,12/7/2023,8/1/2024,"9 Months, 16 Days",192,76,116,45
+Frozen Vegetables,Safal,4045,12/9/2025,14-02-2025,14-02-2026,"10 Months, 24 Days",435,321,114,21
+Cheese,Britannia,9350,13-05-2025,19-12-2024,17-06-2025,"2 Months, 22 Days",285,188,97,46
+Chips,Lays,3509,25-05-2024,28-03-2024,26-07-2024,"4 Months, 1 Days",429,381,48,42
+Green Tea,Lipton,9233,4/12/2025,16-03-2025,16-03-2026,"11 Months, 24 Days",139,51,88,19
+Hand Sanitizer,Dettol,4168,9/3/2026,29-10-2024,29-10-2026,"1 Years, 7 Months, 6 Days",114,34,80,11
+Toothpaste,Colgate,7951,26-05-2025,16-11-2024,16-11-2026,"1 Years, 7 Months, 24 Days",211,56,155,17
+Protein Powder,Optimum Nutrition,3709,4/12/2024,13-12-2023,12/12/2025,"8 Months, 20 Days",346,307,39,34
+Protein Powder,Optimum Nutrition,4912,30-04-2024,26-05-2023,25-05-2025,"1 Months, 29 Days",449,277,172,36
+Rice,India Gate,5870,23-04-2025,4/7/2024,4/7/2025,"3 Months, 9 Days",473,74,399,29
+Tea,Tata Tea,8484,21-08-2024,16-06-2024,16-06-2025,"2 Months, 21 Days",169,78,91,27
+Bread,Britannia,1210,31-08-2024,25-08-2024,1/9/2024,"5 Months, 8 Days",426,282,144,30
+Eggs,Suguna Foods,5480,27-05-2023,23-05-2023,13-06-2023,"2 Months, 17 Days",81,12,69,20
+Instant Noodles,Maggi,4051,3/9/2024,19-08-2024,15-02-2025,"10 Months, 25 Days",437,230,207,33
+Shaving Foam,Gillette,4338,26-09-2024,27-11-2023,26-11-2025,"8 Months, 4 Days",56,29,27,35
+Yogurt,Nestle,3884,7/6/2023,4/6/2023,18-06-2023,"2 Months, 22 Days",306,28,278,13
+Yogurt,Nestle,8270,8/1/2025,28-12-2024,11/1/2025,"9 Months, 20 Days",385,257,128,37
+Pasta,Barilla,6166,23-09-2023,10/6/2023,7/12/2023,"8 Months, 14 Days",64,63,1,13
+Bread,Britannia,8254,16-11-2023,14-11-2023,21-11-2023,"7 Months, 28 Days",118,82,36,40
+Hand Sanitizer,Dettol,9971,8/5/2025,17-01-2024,16-01-2026,"9 Months, 25 Days",194,26,168,39
+Milk,Amul,2485,8/6/2024,4/6/2024,14-06-2024,"2 Months, 19 Days",75,36,39,39
+Peanut Butter,Sundrop,1314,14-03-2025,8/2/2025,8/2/2026,"10 Months, 18 Days",357,299,58,20
+Detergent Powder,Surf Excel,2206,1/1/2025,8/9/2023,7/9/2025,"5 Months, 14 Days",360,350,10,46
+Biscuits,Parle,5753,3/12/2024,2/12/2024,2/3/2025,"11 Months, 10 Days",240,191,49,31
+Cereal,Kellogg's,7946,28-01-2025,16-12-2024,14-06-2025,"2 Months, 19 Days",230,24,206,22
+Bread,Britannia,3495,6/1/2024,2/1/2024,9/1/2024,"9 Months, 17 Days",478,454,24,22
+Cheese,Britannia,2157,26-01-2024,24-11-2023,22-05-2024,"1 Months, 26 Days",432,341,91,33
+Dishwashing Liquid,Vim,4211,26-05-2025,2/2/2025,2/2/2027,"1 Years, 10 Months, 12 Days",316,228,88,13
+Biscuits,Parle,5118,31-01-2024,17-11-2023,15-02-2024,"10 Months, 24 Days",59,31,28,16
+Salt,Tata,5482,21-08-2024,27-03-2023,26-03-2025,"12 Months, 4 Days",362,99,263,19
+Juice,Real,5056,6/5/2024,10/4/2024,9/6/2024,"2 Months, 14 Days",127,75,52,13
+Hand Sanitizer,Dettol,4729,13-05-2024,26-05-2023,25-05-2025,"1 Months, 29 Days",445,69,376,13
+Bread,Britannia,1044,19-03-2025,14-03-2025,21-03-2025,"11 Months, 29 Days",375,39,336,41
+Dry Fruits,Happilo,8762,16-12-2025,23-02-2025,23-02-2026,"11 Months, 3 Days",127,16,111,18
+Toothpaste,Colgate,4056,30-05-2025,24-06-2024,24-06-2026,"1 Years, 2 Months, 29 Days",418,274,144,21
+Cereal,Kellogg's,6688,16-07-2024,29-06-2024,26-12-2024,"9 Months, 4 Days",372,131,241,16
+Detergent Powder,Surf Excel,6318,26-09-2026,18-11-2024,18-11-2026,"1 Years, 7 Months, 26 Days",202,169,33,44
+Sugar,Madhur,6504,27-02-2026,17-03-2024,17-03-2026,"11 Months, 25 Days",423,330,93,27
+Toothpaste,Colgate,2715,8/7/2025,2/10/2024,2/10/2026,"1 Years, 6 Months, 9 Days",339,237,102,20
+Oil,Fortune,1878,11/3/2024,13-06-2023,12/6/2024,"2 Months, 17 Days",307,245,62,21
+Tomato Ketchup,Heinz,8700,21-08-2024,28-11-2023,27-11-2024,"8 Months, 5 Days",108,106,2,22
+Cereal,Kellogg's,5047,21-10-2024,23-05-2024,19-11-2024,"7 Months, 27 Days",323,285,38,26
+Toothpaste,Colgate,2717,18-05-2026,31-10-2024,31-10-2026,"1 Years, 7 Months, 8 Days",284,216,68,28
+Rice,India Gate,8852,4/4/2025,15-10-2024,15-10-2025,"6 Months, 22 Days",90,24,66,26
+Chicken,Suguna Foods,7458,19-09-2024,15-09-2024,20-09-2024,"5 Months, 27 Days",457,17,440,46
+Peanut Butter,Sundrop,4668,22-08-2024,6/4/2024,6/4/2025,10 Days,124,76,48,16
+Instant Noodles,Maggi,5475,18-04-2025,20-02-2025,19-08-2025,"4 Months, 25 Days",378,152,226,28
+Soap,Lux,8123,26-04-2024,8/7/2023,7/7/2025,"3 Months, 12 Days",294,231,63,36
+Chips,Lays,5198,14-02-2024,10/2/2024,9/6/2024,"2 Months, 14 Days",423,365,58,16
+Chips,Lays,9969,2/1/2024,31-12-2023,29-04-2024,"1 Months, 3 Days",226,194,32,41
+Dry Fruits,Happilo,6742,9/11/2023,24-08-2023,23-08-2024,"4 Months, 29 Days",332,297,35,25
+Detergent Powder,Surf Excel,7850,19-02-2026,23-05-2024,23-05-2026,"1 Years, 1 Months, 27 Days",255,221,34,31
+Face Cream,Ponds,5849,24-01-2026,6/1/2025,6/1/2027,"1 Years, 9 Months, 15 Days",256,124,132,32
+Bread,Britannia,8817,6/5/2023,5/5/2023,12/5/2023,"1 Months, 15 Days",69,13,56,10
+Detergent Powder,Surf Excel,6287,16-01-2025,14-07-2023,13-07-2025,"3 Months, 18 Days",65,44,21,43
+Oil,Fortune,8982,3/4/2024,23-07-2023,22-07-2024,"3 Months, 27 Days",212,180,32,44
+Sanitary Napkins,Whisper,6174,20-07-2025,10/2/2025,10/2/2027,"1 Years, 10 Months, 20 Days",242,103,139,50
+Butter,Amul,6741,30-07-2023,8/7/2023,6/10/2023,"6 Months, 12 Days",353,74,279,37
+Shaving Foam,Gillette,5494,22-12-2025,11/3/2024,11/3/2026,"11 Months, 19 Days",253,205,48,45
+Butter,Amul,8221,1/5/2024,18-03-2024,16-06-2024,"2 Months, 21 Days",451,362,89,50
+Milk,Amul,9861,20-06-2024,13-06-2024,23-06-2024,"2 Months, 28 Days",494,48,446,32
+Coffee,Nescafe,9961,26-01-2024,26-11-2023,25-11-2024,"8 Months, 3 Days",432,188,244,37
+Shampoo,Dove,7308,25-07-2025,8/3/2024,8/3/2026,"11 Months, 16 Days",345,234,111,46
+Coffee,Nescafe,7095,21-08-2023,24-05-2023,23-05-2024,"1 Months, 27 Days",197,106,91,12
+Dry Fruits,Happilo,8258,3/3/2024,8/6/2023,7/6/2024,"2 Months, 12 Days",131,104,27,21
+Mayonnaise,Hellmann's,8285,20-02-2025,17-11-2024,16-05-2025,"1 Months, 20 Days",498,414,84,20
+Oil,Fortune,3958,20-08-2025,22-08-2024,22-08-2025,"4 Months, 28 Days",296,62,234,16
+Milk,Amul,7550,11/6/2024,8/6/2024,18-06-2024,"2 Months, 23 Days",90,46,44,43
+Pasta,Barilla,2466,16-01-2025,8/12/2024,6/6/2025,"2 Months, 11 Days",58,50,8,32
+Bread,Britannia,3444,31-03-2024,27-03-2024,3/4/2024,7 Days,70,39,31,43
+Frozen Vegetables,Safal,7464,3/12/2024,17-08-2024,17-08-2025,"4 Months, 23 Days",137,65,72,19
+Protein Powder,Optimum Nutrition,2651,3/5/2025,15-05-2024,15-05-2026,"1 Years, 1 Months, 19 Days",376,41,335,21
+Juice,Real,3643,27-07-2023,9/6/2023,8/8/2023,"4 Months, 13 Days",319,296,23,45
+Pasta,Barilla,9158,18-02-2025,30-08-2024,26-02-2025,"11 Months, 6 Days",104,13,91,49
+Tomato Ketchup,Heinz,5144,9/3/2024,1/3/2024,1/3/2025,"11 Months, 9 Days",120,59,61,15
+Cheese,Britannia,8339,5/5/2024,2/4/2024,29-09-2024,"6 Months, 6 Days",278,248,30,22
+Bread,Britannia,5297,22-06-2024,18-06-2024,25-06-2024,3 Months,175,98,77,29
+Peanut Butter,Sundrop,5110,29-07-2024,2/1/2024,1/1/2025,"9 Months, 10 Days",201,74,127,42
+Salt,Tata,2212,10/12/2025,14-03-2024,14-03-2026,"11 Months, 22 Days",259,199,60,34
+Mayonnaise,Hellmann's,1683,13-01-2025,17-09-2024,16-03-2025,"11 Months, 24 Days",216,88,128,49
+Mushrooms,Golden Harvest,5602,21-09-2023,18-09-2023,25-09-2023,"6 Months, 1 Days",198,36,162,14
+Hand Sanitizer,Dettol,1725,14-06-2024,21-01-2024,20-01-2026,"9 Months, 29 Days",366,213,153,49
+Oil,Fortune,9953,14-09-2025,15-11-2024,15-11-2025,"7 Months, 23 Days",67,47,20,22
+Frozen Vegetables,Safal,8652,24-08-2025,24-10-2024,24-10-2025,"7 Months, 1 Days",95,11,84,50
+Peanut Butter,Sundrop,8864,12/4/2024,2/12/2023,1/12/2024,"8 Months, 9 Days",351,141,210,26
+Cheese,Britannia,6847,11/11/2023,31-07-2023,27-01-2024,"10 Months, 5 Days",274,171,103,47
+Chips,Lays,9504,16-04-2023,9/4/2023,7/8/2023,"4 Months, 12 Days",240,32,208,46
+Soap,Lux,4667,20-05-2025,18-10-2024,18-10-2026,"1 Years, 6 Months, 25 Days",181,172,9,35
+Ice Cream,Kwality Walls,6532,13-12-2023,27-11-2023,25-05-2024,"1 Months, 29 Days",319,319,0,43
+Mayonnaise,Hellmann's,5412,13-04-2024,16-11-2023,14-05-2024,"1 Months, 18 Days",221,41,180,13
+Cereal,Kellogg's,1594,9/2/2025,4/2/2025,3/8/2025,"4 Months, 9 Days",280,105,175,35
+Instant Noodles,Maggi,3284,24-10-2024,14-05-2024,10/11/2024,"7 Months, 18 Days",311,264,47,33
+Eggs,Suguna Foods,4464,25-05-2023,6/5/2023,27-05-2023,2 Months,199,165,34,35
+Frozen Vegetables,Safal,5538,30-03-2025,9/3/2025,9/3/2026,"11 Months, 17 Days",383,242,141,46
+Green Tea,Lipton,2764,16-09-2024,15-03-2024,15-03-2025,"11 Months, 23 Days",295,30,265,32
+Energy Drink,Red Bull,4900,6/7/2024,27-06-2024,25-09-2024,"6 Months, 2 Days",421,157,264,35
+Frozen Vegetables,Safal,5723,31-01-2026,6/2/2025,6/2/2026,"10 Months, 16 Days",85,44,41,14
+Ice Cream,Kwality Walls,7319,14-01-2025,5/9/2024,4/3/2025,"11 Months, 12 Days",124,71,53,31
+Yogurt,Nestle,1061,5/5/2023,24-04-2023,8/5/2023,"1 Months, 11 Days",153,29,124,42
+Oil,Fortune,3066,22-02-2024,1/11/2023,31-10-2024,"7 Months, 8 Days",187,116,71,38
+Yogurt,Nestle,4035,24-02-2024,15-02-2024,29-02-2024,"11 Months, 8 Days",469,153,316,36
+Cereal,Kellogg's,2044,29-01-2025,17-08-2024,13-02-2025,"10 Months, 23 Days",266,252,14,18
+Cheese,Britannia,9603,17-05-2024,21-01-2024,19-07-2024,"3 Months, 24 Days",175,136,39,43
+Pasta,Barilla,6937,29-01-2025,1/9/2024,28-02-2025,"11 Months, 8 Days",83,40,43,21
+Instant Noodles,Maggi,2560,3/1/2024,28-12-2023,25-06-2024,3 Months,69,35,34,10
+Milk,Amul,9842,16-07-2024,12/7/2024,22-07-2024,"3 Months, 27 Days",216,112,104,18
+Chicken,Suguna Foods,8862,5/12/2023,4/12/2023,9/12/2023,"8 Months, 16 Days",288,141,147,49
+Instant Noodles,Maggi,4043,11/5/2024,6/4/2024,3/10/2024,"6 Months, 10 Days",251,153,98,11
+Protein Powder,Optimum Nutrition,4999,29-05-2026,29-06-2024,29-06-2026,"1 Years, 3 Months, 4 Days",316,207,109,49
+Mushrooms,Golden Harvest,8361,20-04-2023,14-04-2023,21-04-2023,24 Days,60,32,28,20
+Yogurt,Nestle,9679,3/4/2023,26-03-2023,9/4/2023,12 Days,186,30,156,18
+Yogurt,Nestle,2802,26-11-2023,24-11-2023,8/12/2023,"8 Months, 15 Days",350,243,107,25
+Toothpaste,Colgate,9959,28-02-2025,12/7/2023,11/7/2025,"3 Months, 16 Days",488,16,472,36
+Dishwashing Liquid,Vim,8513,6/1/2024,7/5/2023,6/5/2025,"1 Months, 10 Days",291,249,42,39
+Instant Noodles,Maggi,3023,9/8/2025,2/3/2025,29-08-2025,"5 Months, 5 Days",354,134,220,16
+Peanut Butter,Sundrop,6082,18-09-2024,5/1/2024,4/1/2025,"9 Months, 13 Days",120,51,69,25
+Toothpaste,Colgate,3101,15-08-2025,18-11-2024,18-11-2026,"1 Years, 7 Months, 26 Days",169,116,53,19
+Juice,Real,6493,18-11-2024,7/10/2024,6/12/2024,"8 Months, 14 Days",434,265,169,38
+Tea,Tata Tea,9449,20-01-2025,2/5/2024,2/5/2025,"1 Months, 6 Days",333,314,19,45
+Milk,Amul,9734,25-07-2023,20-07-2023,30-07-2023,"4 Months, 4 Days",214,157,57,27
+Sugar,Madhur,5860,17-10-2024,12/9/2024,12/9/2026,"1 Years, 5 Months, 19 Days",85,85,0,16
+Hand Sanitizer,Dettol,7635,5/9/2025,13-07-2024,13-07-2026,"1 Years, 3 Months, 18 Days",50,40,10,30
+Dry Fruits,Happilo,7678,13-11-2024,24-02-2024,23-02-2025,"11 Months, 3 Days",390,303,87,25
+Green Tea,Lipton,5026,15-12-2024,23-10-2024,23-10-2025,7 Months,106,30,76,41
+Energy Drink,Red Bull,9248,1/5/2023,27-03-2023,25-06-2023,"2 Months, 29 Days",313,174,139,49
+Green Tea,Lipton,2130,27-08-2023,12/4/2023,11/4/2024,15 Days,165,160,5,45
+Sanitary Napkins,Whisper,6029,8/2/2025,1/12/2024,1/12/2026,"1 Years, 8 Months, 9 Days",432,63,369,21
+Instant Noodles,Maggi,6863,23-06-2025,28-12-2024,26-06-2025,"3 Months, 1 Days",134,110,24,45
+Protein Powder,Optimum Nutrition,7681,9/3/2025,29-02-2024,28-02-2026,"11 Months, 8 Days",324,214,110,32
+Mushrooms,Golden Harvest,3953,25-09-2024,22-09-2024,29-09-2024,"6 Months, 6 Days",195,85,110,41
+Mayonnaise,Hellmann's,7193,17-03-2025,13-12-2024,11/6/2025,"2 Months, 16 Days",309,82,227,31
+Cereal,Kellogg's,8979,21-08-2025,25-02-2025,24-08-2025,5 Months,138,86,52,45
+Dry Fruits,Happilo,6964,14-11-2025,23-12-2024,23-12-2025,"9 Months, 1 Days",400,135,265,16
+Chicken,Suguna Foods,2667,26-09-2023,26-09-2023,1/10/2023,"6 Months, 7 Days",154,19,135,30
+Pasta,Barilla,3955,11/6/2024,20-05-2024,16-11-2024,"7 Months, 24 Days",219,53,166,11
+Peanut Butter,Sundrop,2638,6/10/2023,14-08-2023,13-08-2024,"4 Months, 19 Days",253,102,151,19
+Chicken,Suguna Foods,6738,6/12/2024,3/12/2024,8/12/2024,"8 Months, 16 Days",288,196,92,42
+Chicken,Suguna Foods,8502,3/10/2024,30-09-2024,5/10/2024,"6 Months, 12 Days",450,237,213,26
+Oil,Fortune,7692,21-09-2024,19-10-2023,18-10-2024,"6 Months, 25 Days",493,318,175,19
+Detergent Powder,Surf Excel,8055,23-01-2025,26-07-2024,26-07-2026,"1 Years, 4 Months, 1 Days",278,213,65,47
+Chocolate,Cadbury,4435,8/11/2024,29-05-2024,23-02-2025,"11 Months, 3 Days",293,185,108,44
+Oil,Fortune,7707,31-12-2023,13-08-2023,12/8/2024,"4 Months, 18 Days",351,333,18,12
+Eggs,Suguna Foods,2264,1/7/2024,29-06-2024,20-07-2024,"3 Months, 25 Days",283,250,33,38
+Face Cream,Ponds,2824,3/2/2024,9/4/2023,8/4/2025,12 Days,296,34,262,32
+Sanitary Napkins,Whisper,7090,26-11-2025,21-12-2024,21-12-2026,"1 Years, 8 Months, 29 Days",80,71,9,31
+Frozen Vegetables,Safal,2792,17-06-2025,24-02-2025,24-02-2026,"11 Months, 4 Days",348,205,143,16
+Toothpaste,Colgate,2713,6/3/2026,20-04-2024,20-04-2026,"1 Years, 24 Days",91,69,22,32
+Instant Noodles,Maggi,5093,30-08-2023,16-08-2023,12/2/2024,"10 Months, 21 Days",245,245,0,39
+Protein Powder,Optimum Nutrition,7616,6/4/2026,13-10-2024,13-10-2026,"1 Years, 6 Months, 20 Days",160,126,34,11
+Protein Powder,Optimum Nutrition,3911,13-06-2024,21-04-2023,20-04-2025,24 Days,280,271,9,37
+Coffee,Nescafe,2490,10/5/2025,7/7/2024,7/7/2025,"3 Months, 12 Days",369,158,211,48
+Protein Powder,Optimum Nutrition,1196,14-10-2024,17-07-2024,17-07-2026,"1 Years, 3 Months, 22 Days",64,55,9,13
+Dishwashing Liquid,Vim,3388,17-04-2024,14-08-2023,13-08-2025,"4 Months, 19 Days",360,253,107,33
+Rice,India Gate,8102,3/12/2024,23-07-2024,23-07-2025,"3 Months, 28 Days",207,132,75,20
+Salt,Tata,9487,21-06-2024,22-12-2023,21-12-2025,"8 Months, 29 Days",442,33,409,49
+Tea,Tata Tea,7490,9/7/2024,25-09-2023,24-09-2024,"6 Months, 1 Days",282,190,92,15
+Soft Drink,Coca Cola,5516,8/11/2023,2/9/2023,29-02-2024,"11 Months, 8 Days",376,58,318,43
+Shampoo,Dove,4743,25-05-2025,22-07-2024,22-07-2026,"1 Years, 3 Months, 27 Days",236,191,45,25
+Biscuits,Parle,5238,16-10-2024,4/9/2024,3/12/2024,"8 Months, 11 Days",390,277,113,36
+Frozen Vegetables,Safal,7688,28-06-2025,25-01-2025,25-01-2026,"10 Months, 4 Days",235,223,12,28
+Ice Cream,Kwality Walls,5088,11/7/2023,14-04-2023,11/10/2023,"6 Months, 17 Days",309,71,238,24
+Cereal,Kellogg's,1713,1/6/2024,26-03-2024,22-09-2024,"5 Months, 29 Days",270,54,216,32
+Ice Cream,Kwality Walls,3032,18-08-2024,14-03-2024,10/9/2024,"5 Months, 17 Days",371,239,132,18
+Dishwashing Liquid,Vim,8824,19-04-2025,6/7/2023,5/7/2025,"3 Months, 10 Days",281,186,95,30
+Chicken,Suguna Foods,4967,12/9/2023,12/9/2023,17-09-2023,"5 Months, 23 Days",401,123,278,25
+Cheese,Britannia,7377,7/6/2024,7/3/2024,3/9/2024,"5 Months, 10 Days",87,64,23,12
+Ice Cream,Kwality Walls,3458,11/1/2024,25-12-2023,22-06-2024,"2 Months, 27 Days",325,13,312,46
+Shaving Foam,Gillette,5063,10/5/2025,12/12/2023,11/12/2025,"8 Months, 19 Days",393,78,315,34
+Energy Drink,Red Bull,4122,5/11/2024,18-10-2024,16-01-2025,"9 Months, 25 Days",267,223,44,50
+Soft Drink,Coca Cola,6536,28-11-2023,1/10/2023,29-03-2024,2 Days,226,223,3,21
+Cereal,Kellogg's,3910,3/12/2024,7/9/2024,6/3/2025,"11 Months, 14 Days",129,53,76,42
+Biscuits,Parle,7732,17-08-2023,9/8/2023,7/11/2023,"7 Months, 14 Days",317,20,297,10
+Tomato Ketchup,Heinz,9381,27-04-2025,19-12-2024,19-12-2025,"8 Months, 27 Days",496,133,363,25
+Chocolate,Cadbury,2828,23-12-2024,20-09-2024,17-06-2025,"2 Months, 22 Days",377,105,272,49
+Coffee,Nescafe,6124,14-02-2025,17-12-2024,17-12-2025,"8 Months, 25 Days",175,146,29,35
+Peanut Butter,Sundrop,6558,7/1/2024,8/6/2023,7/6/2024,"2 Months, 12 Days",169,156,13,45
+Butter,Amul,2230,2/9/2024,30-08-2024,28-11-2024,"8 Months, 6 Days",156,65,91,28
+Tomato Ketchup,Heinz,8068,22-04-2024,22-10-2023,21-10-2024,"6 Months, 28 Days",480,253,227,31
+Face Cream,Ponds,1758,6/10/2023,19-04-2023,18-04-2025,22 Days,323,265,58,35
+Yogurt,Nestle,4258,28-01-2024,27-01-2024,10/2/2024,"10 Months, 19 Days",456,345,111,21
+Detergent Powder,Surf Excel,1036,28-05-2024,23-11-2023,22-11-2025,8 Months,433,310,123,29
+Chocolate,Cadbury,6974,22-05-2025,28-01-2025,25-10-2025,"7 Months, 2 Days",310,38,272,27
+Coffee,Nescafe,1428,14-05-2024,3/11/2023,2/11/2024,"7 Months, 10 Days",369,336,33,32
+Bread,Britannia,1477,28-04-2024,26-04-2024,3/5/2024,"1 Months, 7 Days",239,134,105,14
+Rice,India Gate,6452,29-12-2023,20-04-2023,19-04-2024,23 Days,437,274,163,22
+Oil,Fortune,7770,31-01-2025,23-10-2024,23-10-2025,7 Months,183,37,146,50
+Milk,Amul,8802,15-10-2023,12/10/2023,22-10-2023,"6 Months, 28 Days",346,280,66,10
+Dishwashing Liquid,Vim,6271,26-01-2026,18-02-2024,17-02-2026,"10 Months, 27 Days",96,26,70,14
+Mushrooms,Golden Harvest,4636,6/4/2024,6/4/2024,13-04-2024,17 Days,368,47,321,35
+Tomato Ketchup,Heinz,8223,23-05-2024,17-10-2023,16-10-2024,"6 Months, 23 Days",323,53,270,25
+Butter,Amul,5471,23-05-2023,12/5/2023,10/8/2023,"4 Months, 15 Days",289,63,226,18
+Milk,Amul,2462,11/7/2023,9/7/2023,19-07-2023,"3 Months, 23 Days",259,97,162,11
+Frozen Vegetables,Safal,5578,22-04-2024,28-01-2024,27-01-2025,"10 Months, 6 Days",273,49,224,27
+Bread,Britannia,4569,29-09-2023,25-09-2023,2/10/2023,"6 Months, 8 Days",346,236,110,50
+Butter,Amul,6802,1/11/2024,9/10/2024,7/1/2025,"9 Months, 16 Days",242,230,12,26
+Yogurt,Nestle,8922,30-03-2024,20-03-2024,3/4/2024,7 Days,154,31,123,45
+Mayonnaise,Hellmann's,7644,22-07-2024,12/2/2024,10/8/2024,"4 Months, 16 Days",76,48,28,37
+Salt,Tata,6020,28-06-2023,13-06-2023,12/6/2025,"2 Months, 17 Days",202,113,89,30
+Salt,Tata,8100,5/9/2026,1/3/2025,1/3/2027,"1 Years, 11 Months, 9 Days",78,52,26,30
+Sugar,Madhur,1380,18-04-2025,21-01-2024,20-01-2026,"9 Months, 29 Days",484,61,423,41
+Butter,Amul,8826,29-12-2024,9/12/2024,9/3/2025,"11 Months, 17 Days",57,25,32,20
+Soap,Lux,8225,6/9/2025,12/3/2024,12/3/2026,"11 Months, 20 Days",406,299,107,33
+Chocolate,Cadbury,3936,31-03-2024,19-10-2023,15-07-2024,"3 Months, 20 Days",83,57,26,41
+Soap,Lux,2220,18-11-2024,8/4/2023,7/4/2025,11 Days,179,134,45,21
+Coffee,Nescafe,5013,3/7/2025,31-10-2024,31-10-2025,"7 Months, 8 Days",431,346,85,15
+Mayonnaise,Hellmann's,5164,2/7/2023,4/6/2023,1/12/2023,"8 Months, 8 Days",308,131,177,28
+Cheese,Britannia,6633,25-08-2025,11/3/2025,7/9/2025,"5 Months, 14 Days",54,52,2,48
+Peanut Butter,Sundrop,2780,10/7/2024,14-05-2024,14-05-2025,"1 Months, 18 Days",230,204,26,36
+Juice,Real,7403,9/3/2024,3/3/2024,2/5/2024,"1 Months, 6 Days",194,47,147,18
+Mushrooms,Golden Harvest,3639,30-12-2023,24-12-2023,31-12-2023,"9 Months, 8 Days",197,94,103,18
+Milk,Amul,5784,26-12-2023,19-12-2023,29-12-2023,"9 Months, 6 Days",86,19,67,47
+Instant Noodles,Maggi,7189,10/2/2024,31-12-2023,28-06-2024,"3 Months, 3 Days",491,302,189,34
+Bread,Britannia,6683,15-09-2023,12/9/2023,19-09-2023,"5 Months, 25 Days",209,73,136,29
+Butter,Amul,7532,27-04-2023,17-04-2023,16-07-2023,"3 Months, 20 Days",396,45,351,39
+Juice,Real,6595,7/7/2024,31-05-2024,30-07-2024,"4 Months, 5 Days",370,297,73,50
+Cereal,Kellogg's,6621,4/11/2024,2/8/2024,29-01-2025,"10 Months, 8 Days",247,195,52,42
+Shaving Foam,Gillette,9275,1/9/2024,25-06-2024,25-06-2026,"1 Years, 3 Months",267,128,139,46
+Juice,Real,6231,21-01-2024,26-11-2023,25-01-2024,"10 Months, 3 Days",102,22,80,23
+Shampoo,Dove,3044,6/1/2026,9/1/2025,9/1/2027,"1 Years, 9 Months, 18 Days",217,159,58,29
+Juice,Real,7748,1/9/2023,2/8/2023,1/10/2023,"6 Months, 7 Days",152,62,90,24
+Salt,Tata,9256,24-06-2023,23-06-2023,22-06-2025,"2 Months, 27 Days",255,90,165,28
+Eggs,Suguna Foods,9396,15-02-2025,12/2/2025,5/3/2025,"11 Months, 13 Days",132,95,37,37
+Mayonnaise,Hellmann's,6890,20-10-2023,6/7/2023,2/1/2024,"9 Months, 10 Days",376,155,221,17
+Tea,Tata Tea,7956,6/12/2024,17-05-2024,17-05-2025,"1 Months, 21 Days",331,156,175,38
+Chips,Lays,7970,4/3/2025,13-12-2024,12/4/2025,16 Days,265,225,40,34
+Sugar,Madhur,4274,29-01-2026,9/5/2024,9/5/2026,"1 Years, 1 Months, 13 Days",82,28,54,10
+Tomato Ketchup,Heinz,9467,30-09-2023,24-09-2023,23-09-2024,6 Months,74,41,33,46
+Juice,Real,7252,17-01-2025,5/1/2025,6/3/2025,"11 Months, 14 Days",347,238,109,46
+Frozen Vegetables,Safal,2396,2/6/2023,24-05-2023,23-05-2024,"1 Months, 27 Days",479,266,213,33
+Shampoo,Dove,7983,5/1/2025,10/9/2024,10/9/2026,"1 Years, 5 Months, 17 Days",60,53,7,11
+Tea,Tata Tea,9255,11/5/2024,8/4/2024,8/4/2025,12 Days,485,184,301,39
+Toothpaste,Colgate,5363,19-07-2026,26-07-2024,26-07-2026,"1 Years, 4 Months, 1 Days",423,155,268,24
+Frozen Vegetables,Safal,9537,13-08-2024,9/7/2024,9/7/2025,"3 Months, 14 Days",489,214,275,26
+Tomato Ketchup,Heinz,3800,2/2/2024,9/12/2023,8/12/2024,"8 Months, 16 Days",131,128,3,39
+Dry Fruits,Happilo,1058,9/5/2024,12/4/2024,12/4/2025,16 Days,104,45,59,35
+Chicken,Suguna Foods,2022,4/3/2025,4/3/2025,9/3/2025,"11 Months, 17 Days",106,67,39,23
+Salt,Tata,8394,21-02-2026,3/12/2024,3/12/2026,"1 Years, 8 Months, 11 Days",488,121,367,24
+Instant Noodles,Maggi,4267,25-11-2023,9/6/2023,6/12/2023,"8 Months, 13 Days",406,252,154,21
+Soft Drink,Coca Cola,3474,26-09-2024,7/5/2024,3/11/2024,"7 Months, 11 Days",79,16,63,40
+Butter,Amul,8451,7/10/2023,21-08-2023,19-11-2023,"7 Months, 26 Days",60,14,46,21
+Mayonnaise,Hellmann's,5072,8/5/2024,24-12-2023,21-06-2024,"2 Months, 26 Days",249,232,17,26
+Chicken,Suguna Foods,9492,6/5/2024,5/5/2024,10/5/2024,"1 Months, 14 Days",405,291,114,24
+Cheese,Britannia,5648,14-05-2024,24-04-2024,21-10-2024,"6 Months, 28 Days",382,244,138,50
+Dry Fruits,Happilo,8450,7/7/2025,24-08-2024,24-08-2025,5 Months,220,97,123,25
+Eggs,Suguna Foods,2116,7/6/2024,7/6/2024,28-06-2024,"3 Months, 3 Days",191,68,123,37
+Detergent Powder,Surf Excel,3459,7/4/2024,20-05-2023,19-05-2025,"1 Months, 23 Days",287,16,271,33
+Shampoo,Dove,8841,25-02-2025,21-04-2024,21-04-2026,"1 Years, 25 Days",490,92,398,22
+Milk,Amul,5528,17-03-2025,9/3/2025,19-03-2025,"11 Months, 27 Days",402,318,84,13
+Biscuits,Parle,9115,18-05-2024,4/5/2024,2/8/2024,"4 Months, 8 Days",308,245,63,20
+Mayonnaise,Hellmann's,6938,2/10/2024,26-09-2024,25-03-2025,"12 Months, 3 Days",412,225,187,22
+Instant Noodles,Maggi,1560,25-11-2023,17-11-2023,15-05-2024,"1 Months, 19 Days",382,10,372,49
+Chicken,Suguna Foods,2094,7/3/2025,6/3/2025,11/3/2025,"11 Months, 19 Days",410,107,303,49
+Coffee,Nescafe,4902,1/5/2023,15-04-2023,14-04-2024,18 Days,114,92,22,24
+Tomato Ketchup,Heinz,8912,13-11-2023,7/4/2023,6/4/2024,10 Days,115,73,42,30
+Coffee,Nescafe,4953,21-02-2025,29-08-2024,29-08-2025,"5 Months, 5 Days",352,76,276,25
+Soap,Lux,8498,20-08-2024,25-05-2024,25-05-2026,"1 Years, 1 Months, 29 Days",148,144,4,29
+Soap,Lux,1883,19-07-2025,6/3/2024,6/3/2026,"11 Months, 14 Days",206,86,120,26
+Soap,Lux,7614,19-04-2024,7/12/2023,6/12/2025,"8 Months, 14 Days",342,28,314,18
+Juice,Real,4846,11/9/2023,24-08-2023,23-10-2023,"6 Months, 29 Days",297,165,132,50
+Face Cream,Ponds,9204,3/3/2024,7/8/2023,6/8/2025,"4 Months, 12 Days",387,101,286,31
+Shampoo,Dove,2454,2/8/2025,21-03-2025,21-03-2027,"1 Years, 11 Months, 29 Days",262,164,98,25
+Ice Cream,Kwality Walls,9129,14-04-2025,20-02-2025,19-08-2025,"4 Months, 25 Days",411,296,115,20
+Frozen Vegetables,Safal,3689,27-05-2024,18-05-2024,18-05-2025,"1 Months, 22 Days",466,60,406,43
+Sanitary Napkins,Whisper,9445,29-12-2025,2/3/2024,2/3/2026,"11 Months, 10 Days",251,28,223,48
+Coffee,Nescafe,5135,6/2/2025,27-12-2024,27-12-2025,"9 Months, 5 Days",308,279,29,48
+Butter,Amul,5511,16-02-2024,6/12/2023,5/3/2024,"11 Months, 13 Days",183,182,1,26
+Mayonnaise,Hellmann's,9063,25-07-2023,25-07-2023,21-01-2024,"9 Months, 29 Days",172,56,116,13
+Toothpaste,Colgate,6465,22-10-2024,15-04-2024,15-04-2026,"1 Years, 19 Days",365,190,175,22
+Hand Sanitizer,Dettol,6827,4/9/2025,3/1/2024,2/1/2026,"9 Months, 11 Days",326,67,259,23
+Frozen Vegetables,Safal,7041,4/9/2025,27-01-2025,27-01-2026,"10 Months, 6 Days",370,335,35,37
+Instant Noodles,Maggi,5296,10/5/2024,20-03-2024,16-09-2024,"5 Months, 23 Days",152,20,132,21
+Sanitary Napkins,Whisper,3411,21-08-2025,25-12-2023,24-12-2025,"9 Months, 2 Days",379,102,277,27
+Tea,Tata Tea,8050,28-10-2024,10/5/2024,10/5/2025,"1 Months, 14 Days",178,46,132,33
+Soap,Lux,9356,19-12-2023,16-11-2023,15-11-2025,"7 Months, 23 Days",106,59,47,20
+Dry Fruits,Happilo,9198,20-06-2024,5/4/2024,5/4/2025,9 Days,170,70,100,50
+Oil,Fortune,8761,15-08-2023,13-04-2023,12/4/2024,16 Days,153,46,107,27
+Mayonnaise,Hellmann's,1446,9/3/2024,26-02-2024,24-08-2024,5 Months,498,230,268,18
+Sugar,Madhur,7936,6/8/2024,15-10-2023,14-10-2025,"6 Months, 21 Days",340,191,149,45
+Tomato Ketchup,Heinz,5452,27-04-2024,20-10-2023,19-10-2024,"6 Months, 26 Days",431,200,231,46
+Detergent Powder,Surf Excel,6343,14-08-2026,14-01-2025,14-01-2027,"1 Years, 9 Months, 23 Days",254,186,68,49
+Face Cream,Ponds,5054,30-11-2023,23-06-2023,22-06-2025,"2 Months, 27 Days",478,33,445,18
+Bread,Britannia,7928,28-09-2024,26-09-2024,3/10/2024,"6 Months, 10 Days",163,50,113,43
+Coffee,Nescafe,5078,15-08-2024,29-05-2024,29-05-2025,"2 Months, 3 Days",471,232,239,43
+Cereal,Kellogg's,6245,23-08-2024,23-08-2024,19-02-2025,"10 Months, 29 Days",400,246,154,36
+Frozen Vegetables,Safal,5262,14-11-2024,5/5/2024,5/5/2025,"1 Months, 9 Days",118,58,60,12
+Butter,Amul,9730,5/10/2023,14-08-2023,12/11/2023,"7 Months, 19 Days",420,405,15,20
+Green Tea,Lipton,2375,29-11-2024,15-06-2024,15-06-2025,"2 Months, 20 Days",358,15,343,34
+Juice,Real,1967,14-08-2023,13-07-2023,11/9/2023,"5 Months, 17 Days",347,304,43,19
+Butter,Amul,9941,11/4/2024,24-02-2024,24-05-2024,"1 Months, 28 Days",453,266,187,43
+Dry Fruits,Happilo,3464,20-09-2023,6/8/2023,5/8/2024,"4 Months, 11 Days",262,62,200,25
+Sugar,Madhur,8930,22-08-2024,11/9/2023,10/9/2025,"5 Months, 17 Days",167,164,3,33
+Cheese,Britannia,1730,28-07-2024,17-06-2024,14-12-2024,"8 Months, 22 Days",396,190,206,47
+Chocolate,Cadbury,8694,29-11-2024,23-04-2024,18-01-2025,"9 Months, 27 Days",182,75,107,43
+Ice Cream,Kwality Walls,4634,28-04-2025,6/11/2024,5/5/2025,"1 Months, 9 Days",144,13,131,39
+Salt,Tata,4371,21-04-2024,20-09-2023,19-09-2025,"5 Months, 26 Days",425,388,37,37
+Yogurt,Nestle,5769,21-06-2023,9/6/2023,23-06-2023,"2 Months, 27 Days",408,99,309,17
+Detergent Powder,Surf Excel,8238,10/7/2024,27-09-2023,26-09-2025,"6 Months, 3 Days",486,61,425,25
+Sugar,Madhur,5830,2/2/2026,3/3/2024,3/3/2026,"11 Months, 11 Days",279,216,63,15
+Shaving Foam,Gillette,5875,5/5/2026,3/6/2024,3/6/2026,"1 Years, 2 Months, 8 Days",198,13,185,34
+Instant Noodles,Maggi,8497,5/4/2024,28-12-2023,25-06-2024,3 Months,185,30,155,18
+Shampoo,Dove,7487,1/1/2025,21-12-2023,20-12-2025,"8 Months, 28 Days",90,89,1,11
+Biscuits,Parle,2363,6/3/2025,1/3/2025,30-05-2025,"2 Months, 4 Days",460,391,69,29
+Ice Cream,Kwality Walls,8472,30-09-2024,7/7/2024,3/1/2025,"9 Months, 12 Days",220,118,102,25
+Face Cream,Ponds,1442,3/8/2025,22-12-2023,21-12-2025,"8 Months, 29 Days",439,395,44,42
+Mayonnaise,Hellmann's,6502,18-10-2024,19-06-2024,16-12-2024,"8 Months, 24 Days",418,46,372,35
+Shaving Foam,Gillette,6966,23-12-2024,22-10-2024,22-10-2026,"1 Years, 6 Months, 29 Days",129,43,86,14
+Tea,Tata Tea,4334,4/4/2024,1/7/2023,30-06-2024,"3 Months, 5 Days",365,95,270,23
+Biscuits,Parle,5525,18-07-2024,16-05-2024,14-08-2024,"4 Months, 20 Days",177,70,107,40
+Sugar,Madhur,6083,7/4/2024,3/11/2023,2/11/2025,"7 Months, 10 Days",175,25,150,50
+Oil,Fortune,5444,2/1/2025,8/4/2024,8/4/2025,12 Days,56,56,0,37
+Juice,Real,6120,10/3/2024,27-02-2024,27-04-2024,"1 Months, 1 Days",365,279,86,24
+Pasta,Barilla,9407,3/8/2023,3/7/2023,30-12-2023,"9 Months, 7 Days",476,387,89,49
+Milk,Amul,1288,7/6/2024,3/6/2024,13-06-2024,"2 Months, 18 Days",432,247,185,40
+Chips,Lays,2663,11/6/2023,28-03-2023,26-07-2023,4 Months,174,134,40,12
+Peanut Butter,Sundrop,5330,20-11-2023,29-03-2023,28-03-2024,1 Days,232,198,34,30
+Tomato Ketchup,Heinz,6084,10/1/2026,14-02-2025,14-02-2026,"10 Months, 24 Days",232,173,59,27
+Soft Drink,Coca Cola,2190,12/12/2024,13-09-2024,12/3/2025,"11 Months, 20 Days",144,42,102,34
+Pasta,Barilla,5108,23-04-2025,9/12/2024,7/6/2025,"2 Months, 12 Days",418,79,339,19
+Energy Drink,Red Bull,1792,20-04-2025,21-02-2025,22-05-2025,"1 Months, 26 Days",463,172,291,14
+Chicken,Suguna Foods,3108,26-11-2024,26-11-2024,1/12/2024,"8 Months, 9 Days",333,295,38,32
+Peanut Butter,Sundrop,6366,3/2/2025,9/4/2024,9/4/2025,13 Days,302,241,61,21
+Pasta,Barilla,9194,24-11-2023,29-05-2023,25-11-2023,"8 Months, 2 Days",405,51,354,15
+Sanitary Napkins,Whisper,9828,28-11-2023,6/5/2023,5/5/2025,"1 Months, 9 Days",421,244,177,47
+Yogurt,Nestle,6518,22-02-2024,18-02-2024,3/3/2024,"11 Months, 11 Days",148,124,24,16
+Hand Sanitizer,Dettol,6235,14-09-2024,31-05-2023,30-05-2025,"2 Months, 4 Days",472,16,456,34
+Cereal,Kellogg's,6345,28-05-2025,3/12/2024,1/6/2025,"2 Months, 6 Days",68,39,29,37
+Rice,India Gate,4973,10/2/2025,17-06-2024,17-06-2025,"2 Months, 22 Days",315,274,41,24
+Chocolate,Cadbury,5207,12/10/2024,16-08-2024,13-05-2025,"1 Months, 17 Days",240,110,130,45
+Peanut Butter,Sundrop,8960,12/10/2024,5/5/2024,5/5/2025,"1 Months, 9 Days",144,28,116,33
+Mushrooms,Golden Harvest,7134,31-07-2024,26-07-2024,2/8/2024,"4 Months, 8 Days",283,276,7,31
+Mayonnaise,Hellmann's,1624,11/7/2023,13-06-2023,10/12/2023,"8 Months, 17 Days",370,60,310,16
+Face Cream,Ponds,6869,10/3/2024,16-10-2023,15-10-2025,"6 Months, 22 Days",296,111,185,46
+Soft Drink,Coca Cola,5370,17-12-2023,21-10-2023,18-04-2024,22 Days,274,71,203,41
+Instant Noodles,Maggi,3184,24-12-2024,25-10-2024,23-04-2025,27 Days,271,226,45,27
+Shaving Foam,Gillette,9511,1/9/2026,20-11-2024,20-11-2026,"1 Years, 7 Months, 28 Days",444,182,262,30
+Chips,Lays,3935,16-02-2024,6/12/2023,4/4/2024,8 Days,379,281,98,16
+Mayonnaise,Hellmann's,1712,18-05-2024,26-01-2024,24-07-2024,"3 Months, 29 Days",237,118,119,16
+Protein Powder,Optimum Nutrition,2453,10/5/2024,5/5/2023,4/5/2025,"1 Months, 8 Days",294,87,207,19
+Dishwashing Liquid,Vim,8631,30-08-2026,23-10-2024,23-10-2026,"1 Years, 7 Months",211,198,13,32
+Pasta,Barilla,7784,30-03-2024,8/11/2023,6/5/2024,"1 Months, 10 Days",155,118,37,27
+Sugar,Madhur,7904,21-01-2025,19-07-2024,19-07-2026,"1 Years, 3 Months, 24 Days",190,31,159,39
+Peanut Butter,Sundrop,1937,15-03-2025,30-04-2024,30-04-2025,"1 Months, 4 Days",460,82,378,31
+Peanut Butter,Sundrop,6265,18-11-2024,3/9/2024,3/9/2025,"5 Months, 10 Days",186,106,80,15
+Hand Sanitizer,Dettol,3864,4/11/2025,22-11-2023,21-11-2025,"7 Months, 29 Days",290,285,5,35
+Pasta,Barilla,8667,13-04-2025,2/11/2024,1/5/2025,"1 Months, 5 Days",457,455,2,40
+Energy Drink,Red Bull,7402,6/6/2024,2/6/2024,31-08-2024,"5 Months, 7 Days",455,54,401,17
+Pasta,Barilla,1938,8/3/2025,28-12-2024,26-06-2025,"3 Months, 1 Days",216,40,176,27
+Yogurt,Nestle,6985,10/9/2023,28-08-2023,11/9/2023,"5 Months, 17 Days",332,100,232,12
+Chocolate,Cadbury,9387,3/8/2024,22-07-2024,18-04-2025,22 Days,406,227,179,26
+Butter,Amul,5430,31-07-2024,10/5/2024,8/8/2024,"4 Months, 14 Days",240,96,144,35
+Coffee,Nescafe,5361,16-04-2024,20-10-2023,19-10-2024,"6 Months, 26 Days",372,12,360,13
+Cereal,Kellogg's,6780,31-05-2024,24-05-2024,20-11-2024,"7 Months, 28 Days",488,329,159,46
+Chips,Lays,7969,2/3/2024,9/12/2023,7/4/2024,11 Days,73,39,34,43
+Cereal,Kellogg's,7599,10/11/2024,11/6/2024,8/12/2024,"8 Months, 16 Days",146,78,68,14
+Cheese,Britannia,6419,24-05-2025,5/3/2025,1/9/2025,"5 Months, 8 Days",371,99,272,30
+Tomato Ketchup,Heinz,9458,14-08-2025,24-10-2024,24-10-2025,"7 Months, 1 Days",127,13,114,48
+Tea,Tata Tea,1343,21-08-2023,16-04-2023,15-04-2024,19 Days,209,25,184,31
+Pasta,Barilla,4133,1/6/2024,3/2/2024,1/8/2024,"4 Months, 7 Days",225,213,12,13
+Sugar,Madhur,3008,15-10-2024,4/9/2024,4/9/2026,"1 Years, 5 Months, 11 Days",326,218,108,48
+Chicken,Suguna Foods,1292,3/1/2024,31-12-2023,5/1/2024,"9 Months, 13 Days",250,216,34,23
+Eggs,Suguna Foods,2930,31-12-2024,25-12-2024,15-01-2025,"9 Months, 24 Days",177,22,155,15
+Frozen Vegetables,Safal,7358,3/4/2024,26-05-2023,25-05-2024,"1 Months, 29 Days",422,122,300,25
+Pasta,Barilla,7159,7/2/2024,17-10-2023,14-04-2024,18 Days,252,71,181,27
+Mayonnaise,Hellmann's,5099,8/4/2025,18-03-2025,14-09-2025,"5 Months, 21 Days",97,84,13,35
+Dry Fruits,Happilo,4685,7/2/2025,10/8/2024,10/8/2025,"4 Months, 16 Days",65,55,10,27
+Mayonnaise,Hellmann's,4552,13-02-2025,5/1/2025,4/7/2025,"3 Months, 9 Days",125,34,91,19
+Sugar,Madhur,5456,1/2/2026,5/4/2024,5/4/2026,"1 Years, 9 Days",191,22,169,45
+Chips,Lays,1161,20-04-2025,5/2/2025,5/6/2025,"2 Months, 10 Days",442,214,228,25
+Soap,Lux,3631,1/8/2025,5/5/2024,5/5/2026,"1 Years, 1 Months, 9 Days",305,90,215,36
+Cereal,Kellogg's,3119,31-07-2024,1/4/2024,28-09-2024,"6 Months, 5 Days",408,71,337,36
+Detergent Powder,Surf Excel,4151,3/11/2023,13-08-2023,12/8/2025,"4 Months, 18 Days",260,187,73,22
+Bread,Britannia,7566,21-02-2025,18-02-2025,25-02-2025,"11 Months, 5 Days",156,47,109,32
+Pasta,Barilla,7287,8/6/2025,3/3/2025,30-08-2025,"5 Months, 6 Days",479,167,312,13
+Peanut Butter,Sundrop,5574,12/7/2025,30-10-2024,30-10-2025,"7 Months, 7 Days",192,152,40,28
+Peanut Butter,Sundrop,4513,12/3/2025,12/5/2024,12/5/2025,"1 Months, 16 Days",290,139,151,28
+Chicken,Suguna Foods,8189,4/7/2024,4/7/2024,9/7/2024,"3 Months, 14 Days",283,165,118,33
+Protein Powder,Optimum Nutrition,9112,16-08-2024,20-04-2023,19-04-2025,23 Days,352,197,155,40
+Ice Cream,Kwality Walls,1935,30-08-2023,29-06-2023,26-12-2023,"9 Months, 3 Days",97,58,39,44
+Peanut Butter,Sundrop,3335,20-06-2025,1/7/2024,1/7/2025,"3 Months, 6 Days",306,283,23,15
+Frozen Vegetables,Safal,7301,1/12/2023,1/9/2023,31-08-2024,"5 Months, 7 Days",237,158,79,49
+Dishwashing Liquid,Vim,9916,28-04-2025,6/8/2023,5/8/2025,"4 Months, 11 Days",465,194,271,34
+Energy Drink,Red Bull,4928,16-08-2024,7/6/2024,5/9/2024,"5 Months, 12 Days",451,374,77,26
+Cheese,Britannia,6015,14-08-2024,18-03-2024,14-09-2024,"5 Months, 21 Days",460,200,260,35
+Soap,Lux,8888,30-04-2026,11/6/2024,11/6/2026,"1 Years, 2 Months, 16 Days",361,179,182,12
+Soft Drink,Coca Cola,9712,29-07-2024,12/6/2024,9/12/2024,"8 Months, 17 Days",130,72,58,50
+Face Cream,Ponds,7362,4/10/2025,13-12-2024,13-12-2026,"1 Years, 8 Months, 21 Days",376,113,263,24
+Shampoo,Dove,3988,29-02-2024,16-08-2023,15-08-2025,"4 Months, 21 Days",483,23,460,13
+Tea,Tata Tea,4448,5/3/2025,6/4/2024,6/4/2025,10 Days,392,56,336,27
+Coffee,Nescafe,7496,28-05-2025,3/3/2025,3/3/2026,"11 Months, 11 Days",430,355,75,12
+Coffee,Nescafe,7419,12/3/2024,14-11-2023,13-11-2024,"7 Months, 21 Days",115,20,95,18
+Shampoo,Dove,3352,27-02-2024,11/12/2023,10/12/2025,"8 Months, 18 Days",208,144,64,40
+Juice,Real,7030,24-11-2024,2/11/2024,1/1/2025,"9 Months, 10 Days",315,227,88,26
+Tea,Tata Tea,7273,17-02-2025,12/9/2024,12/9/2025,"5 Months, 19 Days",329,99,230,41
+Instant Noodles,Maggi,1615,5/4/2025,16-03-2025,12/9/2025,"5 Months, 19 Days",71,67,4,29
+Cereal,Kellogg's,4365,14-08-2023,2/7/2023,29-12-2023,"9 Months, 6 Days",364,115,249,11
+Bread,Britannia,8793,24-10-2023,23-10-2023,30-10-2023,"7 Months, 6 Days",324,117,207,44
+Peanut Butter,Sundrop,9127,11/7/2023,24-05-2023,23-05-2024,"1 Months, 27 Days",163,35,128,41
+Mayonnaise,Hellmann's,2665,25-06-2024,16-06-2024,13-12-2024,"8 Months, 21 Days",88,87,1,18
+Detergent Powder,Surf Excel,2551,18-10-2025,27-04-2024,27-04-2026,"1 Years, 1 Months, 1 Days",166,104,62,20
+Sanitary Napkins,Whisper,3507,10/1/2025,21-06-2023,20-06-2025,"2 Months, 25 Days",125,39,86,35
+Soap,Lux,4025,30-08-2026,27-01-2025,27-01-2027,"1 Years, 10 Months, 6 Days",343,325,18,34
+Soap,Lux,5332,19-09-2026,4/11/2024,4/11/2026,"1 Years, 7 Months, 12 Days",308,142,166,34
+Sugar,Madhur,5275,15-08-2024,7/3/2024,7/3/2026,"11 Months, 15 Days",299,76,223,20
+Soap,Lux,7749,23-11-2023,20-05-2023,19-05-2025,"1 Months, 23 Days",149,50,99,21
+Pasta,Barilla,3735,25-04-2025,28-11-2024,27-05-2025,"2 Months, 1 Days",441,331,110,13
+Milk,Amul,9410,31-05-2024,30-05-2024,9/6/2024,"2 Months, 14 Days",374,116,258,22
+Toothpaste,Colgate,4238,2/2/2025,29-09-2023,28-09-2025,"6 Months, 5 Days",438,415,23,50
+Soft Drink,Coca Cola,1911,16-03-2025,14-03-2025,10/9/2025,"5 Months, 17 Days",271,49,222,29
+Detergent Powder,Surf Excel,2671,9/12/2024,30-01-2024,29-01-2026,"10 Months, 8 Days",340,38,302,25
+Milk,Amul,3569,23-05-2024,14-05-2024,24-05-2024,"1 Months, 28 Days",356,108,248,29
+Yogurt,Nestle,7092,5/5/2023,26-04-2023,10/5/2023,"1 Months, 13 Days",444,115,329,18
+Sugar,Madhur,3616,5/12/2025,16-03-2024,16-03-2026,"11 Months, 24 Days",288,107,181,16
+Dry Fruits,Happilo,4492,5/4/2024,5/9/2023,4/9/2024,"5 Months, 11 Days",451,38,413,33
+Milk,Amul,8252,20-08-2023,20-08-2023,30-08-2023,"5 Months, 5 Days",203,67,136,50
+Soap,Lux,5250,8/6/2024,28-11-2023,27-11-2025,"8 Months, 5 Days",150,70,80,20
+Soap,Lux,4154,31-10-2023,23-08-2023,22-08-2025,"4 Months, 28 Days",140,116,24,24
+Tomato Ketchup,Heinz,3736,16-12-2024,20-12-2023,19-12-2024,"8 Months, 27 Days",289,45,244,34
+Sugar,Madhur,2963,21-05-2025,2/7/2024,2/7/2026,"1 Years, 3 Months, 7 Days",394,70,324,47
+Eggs,Suguna Foods,6262,3/10/2024,3/10/2024,24-10-2024,"7 Months, 1 Days",347,181,166,37
+Soft Drink,Coca Cola,3954,15-08-2023,27-05-2023,23-11-2023,8 Months,484,195,289,15
+Tea,Tata Tea,5011,31-07-2025,16-01-2025,16-01-2026,"9 Months, 25 Days",280,267,13,12
+Dishwashing Liquid,Vim,9021,16-11-2024,15-11-2023,14-11-2025,"7 Months, 22 Days",358,240,118,48
+Mushrooms,Golden Harvest,4198,10/11/2023,10/11/2023,17-11-2023,"7 Months, 24 Days",237,102,135,13
+Cereal,Kellogg's,7953,22-11-2023,16-10-2023,13-04-2024,17 Days,132,108,24,48
+Green Tea,Lipton,9347,10/11/2025,15-11-2024,15-11-2025,"7 Months, 23 Days",226,135,91,31
+Sugar,Madhur,8011,26-01-2025,23-03-2024,23-03-2026,"12 Months, 1 Days",368,248,120,25
+Energy Drink,Red Bull,9614,23-06-2024,19-06-2024,17-09-2024,"5 Months, 24 Days",326,71,255,14
+Yogurt,Nestle,3275,11/9/2024,5/9/2024,19-09-2024,"5 Months, 26 Days",376,157,219,31
+Pasta,Barilla,2162,1/4/2025,20-03-2025,16-09-2025,"5 Months, 23 Days",285,178,107,44
+Eggs,Suguna Foods,6740,30-05-2024,21-05-2024,11/6/2024,"2 Months, 16 Days",123,104,19,25
+Ice Cream,Kwality Walls,9821,1/10/2024,22-04-2024,19-10-2024,"6 Months, 26 Days",272,144,128,22
+Mayonnaise,Hellmann's,8854,16-05-2024,24-01-2024,22-07-2024,"3 Months, 27 Days",235,26,209,16
+Tomato Ketchup,Heinz,8266,8/11/2024,13-05-2024,13-05-2025,"1 Months, 17 Days",229,197,32,12
+Cereal,Kellogg's,5816,11/2/2025,28-01-2025,27-07-2025,"4 Months, 2 Days",101,77,24,49
+Cheese,Britannia,6035,23-04-2025,14-02-2025,13-08-2025,"4 Months, 19 Days",308,71,237,14
+Detergent Powder,Surf Excel,4355,3/12/2024,19-07-2023,18-07-2025,"3 Months, 23 Days",168,144,24,37
+Soft Drink,Coca Cola,3937,12/3/2024,7/10/2023,4/4/2024,8 Days,390,202,188,41
+Rice,India Gate,9926,8/11/2024,9/3/2024,9/3/2025,"11 Months, 17 Days",454,180,274,35
+Instant Noodles,Maggi,1806,13-01-2024,31-08-2023,27-02-2024,"11 Months, 6 Days",190,40,150,15
+Biscuits,Parle,5020,10/1/2025,25-11-2024,23-02-2025,"11 Months, 3 Days",340,219,121,38
+Instant Noodles,Maggi,1900,1/2/2025,1/1/2025,30-06-2025,"3 Months, 5 Days",295,205,90,34
+Ice Cream,Kwality Walls,7975,26-06-2023,25-05-2023,21-11-2023,"7 Months, 28 Days",393,71,322,12
+Energy Drink,Red Bull,9073,25-11-2024,25-11-2024,23-02-2025,"11 Months, 3 Days",357,147,210,45
+Soap,Lux,1536,14-02-2024,20-06-2023,19-06-2025,"2 Months, 24 Days",371,184,187,32
+Instant Noodles,Maggi,1170,20-11-2024,26-10-2024,24-04-2025,28 Days,256,219,37,46
+Chicken,Suguna Foods,8586,14-02-2025,11/2/2025,16-02-2025,"10 Months, 26 Days",383,11,372,50
+Chicken,Suguna Foods,9308,14-12-2023,11/12/2023,16-12-2023,"8 Months, 23 Days",251,85,166,15
+Salt,Tata,3356,5/11/2025,9/12/2024,9/12/2026,"1 Years, 8 Months, 17 Days",52,10,42,33
+Instant Noodles,Maggi,1362,16-05-2024,25-04-2024,22-10-2024,"6 Months, 29 Days",222,83,139,48
+Soft Drink,Coca Cola,3469,11/7/2025,31-01-2025,30-07-2025,"4 Months, 5 Days",355,351,4,17
+Yogurt,Nestle,4523,25-05-2024,21-05-2024,4/6/2024,"2 Months, 9 Days",66,44,22,28
+Pasta,Barilla,3141,12/1/2024,10/9/2023,8/3/2024,"11 Months, 16 Days",309,95,214,35
+Bread,Britannia,2529,7/12/2023,4/12/2023,11/12/2023,"8 Months, 18 Days",335,262,73,13
+Toothpaste,Colgate,3233,24-06-2024,20-05-2024,20-05-2026,"1 Years, 1 Months, 24 Days",180,142,38,31
+Dry Fruits,Happilo,7259,19-05-2025,18-10-2024,18-10-2025,"6 Months, 25 Days",227,225,2,43
+Detergent Powder,Surf Excel,8832,31-05-2025,11/11/2024,11/11/2026,"1 Years, 7 Months, 19 Days",278,229,49,21
+Milk,Amul,9694,2/5/2023,27-04-2023,7/5/2023,"1 Months, 10 Days",243,103,140,44
+Green Tea,Lipton,9658,16-06-2025,8/11/2024,8/11/2025,"7 Months, 16 Days",168,100,68,30
+Pasta,Barilla,4173,29-09-2024,10/4/2024,7/10/2024,"6 Months, 14 Days",90,83,7,14
+Mushrooms,Golden Harvest,5850,11/10/2023,7/10/2023,14-10-2023,"6 Months, 20 Days",277,70,207,16
+Sugar,Madhur,9095,3/11/2024,17-06-2023,16-06-2025,"2 Months, 21 Days",50,36,14,22
+Shaving Foam,Gillette,2302,8/8/2026,25-10-2024,25-10-2026,"1 Years, 7 Months, 2 Days",318,11,307,45
+Milk,Amul,2862,9/9/2023,9/9/2023,19-09-2023,"5 Months, 25 Days",330,102,228,10
+Chocolate,Cadbury,1200,29-03-2024,25-02-2024,21-11-2024,"7 Months, 29 Days",335,44,291,18
+Juice,Real,1591,9/7/2023,22-05-2023,21-07-2023,"3 Months, 25 Days",300,250,50,22
+Tea,Tata Tea,6098,16-03-2025,12/7/2024,12/7/2025,"3 Months, 17 Days",391,186,205,31
+Chips,Lays,5126,17-04-2025,9/2/2025,9/6/2025,"2 Months, 14 Days",105,69,36,49
+Soft Drink,Coca Cola,1160,23-10-2024,2/5/2024,29-10-2024,"7 Months, 6 Days",483,417,66,22
+Sanitary Napkins,Whisper,6692,19-11-2026,9/2/2025,9/2/2027,"1 Years, 10 Months, 19 Days",467,387,80,20
+Butter,Amul,4298,1/6/2024,7/4/2024,6/7/2024,"3 Months, 11 Days",500,306,194,36
+Yogurt,Nestle,7015,23-02-2025,17-02-2025,3/3/2025,"11 Months, 11 Days",218,23,195,29
+Shaving Foam,Gillette,9016,27-07-2024,5/12/2023,4/12/2025,"8 Months, 12 Days",383,56,327,12
+Mayonnaise,Hellmann's,8895,16-12-2023,25-11-2023,23-05-2024,"1 Months, 27 Days",95,73,22,20
+Juice,Real,5501,2/2/2024,20-12-2023,18-02-2024,"10 Months, 27 Days",433,33,400,49
+Eggs,Suguna Foods,5171,22-05-2023,12/5/2023,2/6/2023,"2 Months, 6 Days",255,252,3,41
+Biscuits,Parle,6927,18-02-2025,30-12-2024,30-03-2025,3 Days,346,236,110,21
+Yogurt,Nestle,9254,10/2/2025,8/2/2025,22-02-2025,"11 Months, 2 Days",153,60,93,23
+Tomato Ketchup,Heinz,7501,20-11-2023,6/8/2023,5/8/2024,"4 Months, 11 Days",490,155,335,38
+Mayonnaise,Hellmann's,5670,15-05-2024,1/2/2024,30-07-2024,"4 Months, 5 Days",169,43,126,15
+Chips,Lays,1845,24-06-2024,19-05-2024,16-09-2024,"5 Months, 23 Days",431,389,42,21
+Face Cream,Ponds,6234,22-07-2025,21-11-2023,20-11-2025,"7 Months, 28 Days",342,17,325,40
+Butter,Amul,4443,5/11/2024,28-09-2024,27-12-2024,"9 Months, 5 Days",346,58,288,16
+Protein Powder,Optimum Nutrition,8995,27-04-2026,2/10/2024,2/10/2026,"1 Years, 6 Months, 9 Days",416,144,272,29
+Soft Drink,Coca Cola,6845,6/2/2025,4/12/2024,2/6/2025,"2 Months, 7 Days",442,145,297,18
+Mushrooms,Golden Harvest,7582,7/7/2023,6/7/2023,13-07-2023,"3 Months, 17 Days",497,453,44,50
+Hand Sanitizer,Dettol,5725,6/7/2023,30-05-2023,29-05-2025,"2 Months, 3 Days",124,72,52,41
+Instant Noodles,Maggi,5952,14-12-2023,20-08-2023,16-02-2024,"10 Months, 25 Days",54,36,18,32
+Soft Drink,Coca Cola,6439,6/4/2025,15-02-2025,14-08-2025,"4 Months, 20 Days",322,71,251,45
+Rice,India Gate,6440,25-10-2023,24-10-2023,23-10-2024,7 Months,440,141,299,46
+Energy Drink,Red Bull,3231,31-03-2024,23-02-2024,23-05-2024,"1 Months, 27 Days",83,39,44,20
+Butter,Amul,8405,12/10/2024,4/10/2024,2/1/2025,"9 Months, 11 Days",96,80,16,32
+Protein Powder,Optimum Nutrition,2240,22-11-2025,9/2/2025,9/2/2027,"1 Years, 10 Months, 19 Days",247,168,79,26
+Detergent Powder,Surf Excel,4054,13-10-2024,5/8/2023,4/8/2025,"4 Months, 10 Days",459,384,75,41
+Cheese,Britannia,3679,30-12-2023,10/10/2023,7/4/2024,11 Days,433,111,322,23
+Dry Fruits,Happilo,7926,10/4/2024,21-06-2023,20-06-2024,"2 Months, 25 Days",183,129,54,15
+Energy Drink,Red Bull,4305,4/8/2024,25-06-2024,23-09-2024,6 Months,427,378,49,19
+Protein Powder,Optimum Nutrition,7346,10/3/2025,14-06-2024,14-06-2026,"1 Years, 2 Months, 19 Days",364,84,280,49
+Dishwashing Liquid,Vim,2401,3/3/2026,28-12-2024,28-12-2026,"1 Years, 9 Months, 6 Days",433,175,258,12
+Chips,Lays,9500,26-08-2024,20-07-2024,17-11-2024,"7 Months, 25 Days",208,99,109,11
+Mayonnaise,Hellmann's,4831,6/11/2024,29-07-2024,25-01-2025,"10 Months, 4 Days",353,140,213,37
+Oil,Fortune,1592,22-03-2025,29-08-2024,29-08-2025,"5 Months, 5 Days",270,125,145,46
+Chips,Lays,2406,13-09-2023,28-08-2023,26-12-2023,"9 Months, 3 Days",267,147,120,25
+Milk,Amul,5969,24-02-2024,20-02-2024,1/3/2024,"11 Months, 9 Days",452,64,388,25
+Green Tea,Lipton,1245,20-02-2025,31-08-2024,31-08-2025,"5 Months, 7 Days",477,415,62,43
+Chicken,Suguna Foods,1281,15-03-2024,14-03-2024,19-03-2024,"11 Months, 27 Days",127,71,56,20
+Cheese,Britannia,2522,27-03-2025,12/1/2025,11/7/2025,"3 Months, 16 Days",248,211,37,47
+Peanut Butter,Sundrop,1629,27-04-2024,17-10-2023,16-10-2024,"6 Months, 23 Days",78,69,9,39
+Rice,India Gate,1489,20-11-2024,12/6/2024,12/6/2025,"2 Months, 17 Days",412,334,78,37
+Oil,Fortune,5694,28-07-2025,3/12/2024,3/12/2025,"8 Months, 11 Days",195,170,25,48
+Biscuits,Parle,5887,9/6/2023,29-05-2023,27-08-2023,"5 Months, 2 Days",332,238,94,16
+Tea,Tata Tea,8079,7/5/2024,14-02-2024,13-02-2025,"10 Months, 23 Days",347,236,111,17
+Eggs,Suguna Foods,8833,11/10/2023,23-09-2023,14-10-2023,"6 Months, 20 Days",62,52,10,43
+Peanut Butter,Sundrop,7618,26-06-2024,21-08-2023,20-08-2024,"4 Months, 26 Days",275,66,209,41
+Chicken,Suguna Foods,4960,16-08-2024,16-08-2024,21-08-2024,"4 Months, 27 Days",161,37,124,21
+Shaving Foam,Gillette,4622,19-06-2025,8/1/2024,7/1/2026,"9 Months, 16 Days",456,153,303,24
+Mushrooms,Golden Harvest,6788,19-09-2023,16-09-2023,23-09-2023,"5 Months, 29 Days",96,42,54,13
+Frozen Vegetables,Safal,9465,14-03-2025,26-10-2024,26-10-2025,"7 Months, 3 Days",454,114,340,33
+Shaving Foam,Gillette,1410,21-03-2025,8/9/2023,7/9/2025,"5 Months, 14 Days",330,292,38,11
+Soft Drink,Coca Cola,9750,22-09-2024,8/7/2024,4/1/2025,"9 Months, 13 Days",175,102,73,20
+Dry Fruits,Happilo,1447,12/3/2025,30-10-2024,30-10-2025,"7 Months, 7 Days",55,21,34,35
+Dry Fruits,Happilo,3683,7/10/2024,9/10/2023,8/10/2024,"6 Months, 15 Days",492,93,399,21
+Cheese,Britannia,6373,28-08-2023,16-07-2023,12/1/2024,"9 Months, 20 Days",411,404,7,37
+Green Tea,Lipton,1994,13-03-2026,14-03-2025,14-03-2026,"11 Months, 22 Days",486,162,324,35
+Face Cream,Ponds,1685,26-01-2026,20-03-2024,20-03-2026,"11 Months, 28 Days",309,234,75,27
+Hand Sanitizer,Dettol,3651,28-09-2023,17-09-2023,16-09-2025,"5 Months, 23 Days",450,441,9,45
+Peanut Butter,Sundrop,1398,30-09-2025,1/12/2024,1/12/2025,"8 Months, 9 Days",469,271,198,25
+Butter,Amul,6397,30-06-2023,26-05-2023,24-08-2023,"4 Months, 29 Days",301,46,255,17
+Yogurt,Nestle,7060,13-01-2025,9/1/2025,23-01-2025,"10 Months, 2 Days",73,42,31,41
+Protein Powder,Optimum Nutrition,1466,4/11/2024,3/3/2024,3/3/2026,"11 Months, 11 Days",386,142,244,21
+Salt,Tata,3345,7/2/2026,29-09-2024,29-09-2026,"1 Years, 6 Months, 6 Days",365,268,97,38
+Hand Sanitizer,Dettol,2147,20-09-2025,16-09-2024,16-09-2026,"1 Years, 5 Months, 23 Days",439,306,133,26
+Salt,Tata,8205,2/9/2025,10/8/2024,10/8/2026,"1 Years, 4 Months, 16 Days",305,204,101,11
+Energy Drink,Red Bull,4700,16-09-2023,29-07-2023,27-10-2023,"7 Months, 3 Days",386,239,147,35
+Cheese,Britannia,6871,4/2/2025,15-11-2024,14-05-2025,"1 Months, 18 Days",455,30,425,13
+Face Cream,Ponds,1774,26-07-2024,3/6/2023,2/6/2025,"2 Months, 7 Days",85,37,48,27
+Chips,Lays,6946,23-03-2024,13-02-2024,12/6/2024,"2 Months, 17 Days",487,286,201,15
+Oil,Fortune,9800,29-03-2025,19-09-2024,19-09-2025,"5 Months, 26 Days",420,275,145,31
+Eggs,Suguna Foods,9086,21-01-2024,15-01-2024,5/2/2024,"10 Months, 14 Days",141,20,121,31
+Dry Fruits,Happilo,2464,21-09-2025,12/1/2025,12/1/2026,"9 Months, 21 Days",274,137,137,47
+Peanut Butter,Sundrop,6942,17-04-2025,25-11-2024,25-11-2025,"8 Months, 3 Days",489,144,345,30
+Toothpaste,Colgate,5316,2/7/2025,5/11/2023,4/11/2025,"7 Months, 12 Days",88,68,20,50
+Chocolate,Cadbury,8436,15-03-2025,15-07-2024,11/4/2025,15 Days,168,63,105,43
+Cereal,Kellogg's,5015,7/8/2025,17-03-2025,13-09-2025,"5 Months, 20 Days",259,201,58,17
+Mayonnaise,Hellmann's,7642,28-01-2024,7/9/2023,5/3/2024,"11 Months, 13 Days",461,290,171,34
+Biscuits,Parle,6508,28-03-2024,8/3/2024,6/6/2024,"2 Months, 11 Days",125,121,4,21
+Face Cream,Ponds,3421,8/3/2025,9/1/2024,8/1/2026,"9 Months, 17 Days",139,38,101,25
+Eggs,Suguna Foods,2184,25-12-2024,17-12-2024,7/1/2025,"9 Months, 16 Days",207,51,156,23
+Shampoo,Dove,3215,6/7/2024,30-07-2023,29-07-2025,"4 Months, 4 Days",383,76,307,22
+Face Cream,Ponds,4229,31-08-2025,20-02-2024,19-02-2026,"10 Months, 29 Days",195,74,121,17
+Mushrooms,Golden Harvest,1313,17-10-2023,13-10-2023,20-10-2023,"6 Months, 26 Days",312,128,184,22
+Chips,Lays,3399,10/8/2023,19-07-2023,16-11-2023,"7 Months, 23 Days",400,10,390,39
+Dishwashing Liquid,Vim,6255,3/10/2024,5/6/2023,4/6/2025,"2 Months, 9 Days",478,78,400,10
+Tea,Tata Tea,4808,4/10/2023,18-07-2023,17-07-2024,"3 Months, 22 Days",306,30,276,48
+Butter,Amul,9607,15-10-2023,10/8/2023,8/11/2023,"7 Months, 15 Days",472,264,208,18
+Eggs,Suguna Foods,4110,18-04-2024,15-04-2024,6/5/2024,"1 Months, 10 Days",201,56,145,38
+Green Tea,Lipton,2503,11/12/2023,19-06-2023,18-06-2024,"2 Months, 23 Days",259,222,37,44
+Energy Drink,Red Bull,6978,22-02-2024,10/2/2024,10/5/2024,"1 Months, 14 Days",173,119,54,24
+Rice,India Gate,5065,2/12/2024,20-03-2024,20-03-2025,"11 Months, 28 Days",259,96,163,41
+Hand Sanitizer,Dettol,3472,24-08-2025,1/12/2023,30-11-2025,"8 Months, 8 Days",399,399,0,36
+Toothpaste,Colgate,7350,13-06-2023,3/6/2023,2/6/2025,"2 Months, 7 Days",236,69,167,20
+Dry Fruits,Happilo,5686,16-06-2025,28-09-2024,28-09-2025,"6 Months, 5 Days",165,66,99,45
+Yogurt,Nestle,1951,29-12-2023,25-12-2023,8/1/2024,"9 Months, 16 Days",417,34,383,35
+Face Cream,Ponds,5895,27-01-2027,14-02-2025,14-02-2027,"1 Years, 10 Months, 24 Days",73,50,23,36
+Soft Drink,Coca Cola,8146,7/11/2023,6/10/2023,3/4/2024,7 Days,80,48,32,45
+Milk,Amul,2719,8/4/2024,4/4/2024,14-04-2024,18 Days,384,152,232,34
+Green Tea,Lipton,3624,13-01-2025,19-10-2024,19-10-2025,"6 Months, 26 Days",477,58,419,44
+Protein Powder,Optimum Nutrition,2647,11/5/2026,27-01-2025,27-01-2027,"1 Years, 10 Months, 6 Days",373,290,83,13
+Milk,Amul,6364,4/9/2023,29-08-2023,8/9/2023,"5 Months, 14 Days",158,80,78,17
+Hand Sanitizer,Dettol,8331,17-11-2025,24-09-2024,24-09-2026,"1 Years, 6 Months, 1 Days",310,194,116,25
+Butter,Amul,6353,11/8/2023,1/8/2023,30-10-2023,"7 Months, 6 Days",189,93,96,36
+Face Cream,Ponds,9902,18-11-2024,16-09-2023,15-09-2025,"5 Months, 22 Days",155,150,5,50
+Green Tea,Lipton,6350,27-04-2024,14-01-2024,13-01-2025,"9 Months, 22 Days",314,195,119,31
+Chocolate,Cadbury,1194,19-11-2023,8/11/2023,4/8/2024,"4 Months, 10 Days",84,14,70,42
+Biscuits,Parle,7380,8/6/2023,22-05-2023,20-08-2023,"4 Months, 25 Days",471,171,300,17
+Hand Sanitizer,Dettol,1641,19-02-2025,5/3/2024,5/3/2026,"11 Months, 13 Days",119,19,100,35
+Instant Noodles,Maggi,7636,4/12/2024,15-09-2024,14-03-2025,"11 Months, 22 Days",284,92,192,50
+Protein Powder,Optimum Nutrition,7334,12/7/2026,21-09-2024,21-09-2026,"1 Years, 5 Months, 28 Days",420,371,49,21
+Salt,Tata,3979,17-02-2026,9/3/2024,9/3/2026,"11 Months, 17 Days",344,247,97,28
+Mushrooms,Golden Harvest,3100,26-06-2024,25-06-2024,2/7/2024,"3 Months, 7 Days",476,142,334,39
+Biscuits,Parle,9070,27-01-2025,8/12/2024,8/3/2025,"11 Months, 16 Days",354,192,162,28
+Milk,Amul,9540,28-12-2024,22-12-2024,1/1/2025,"9 Months, 10 Days",462,16,446,24
+Tea,Tata Tea,9764,14-03-2024,7/2/2024,6/2/2025,"10 Months, 16 Days",286,166,120,15
+Dishwashing Liquid,Vim,8965,19-07-2026,28-11-2024,28-11-2026,"1 Years, 8 Months, 6 Days",346,162,184,26
+Soft Drink,Coca Cola,2358,1/11/2023,19-10-2023,16-04-2024,20 Days,411,278,133,45
+Face Cream,Ponds,3797,16-02-2026,10/11/2024,10/11/2026,"1 Years, 7 Months, 18 Days",304,157,147,47
+Toothpaste,Colgate,4626,14-03-2026,15-11-2024,15-11-2026,"1 Years, 7 Months, 23 Days",465,140,325,17
+Tomato Ketchup,Heinz,5394,3/1/2024,22-12-2023,21-12-2024,"8 Months, 29 Days",277,56,221,20
+Sanitary Napkins,Whisper,3604,28-04-2026,17-12-2024,17-12-2026,"1 Years, 8 Months, 25 Days",465,48,417,44
+Sanitary Napkins,Whisper,1321,25-03-2026,13-07-2024,13-07-2026,"1 Years, 3 Months, 18 Days",57,12,45,34
+Eggs,Suguna Foods,3751,7/9/2023,23-08-2023,13-09-2023,"5 Months, 19 Days",495,421,74,33
+Face Cream,Ponds,9284,14-11-2026,1/12/2024,1/12/2026,"1 Years, 8 Months, 9 Days",224,33,191,16
+Protein Powder,Optimum Nutrition,4970,18-02-2025,21-08-2024,21-08-2026,"1 Years, 4 Months, 27 Days",103,34,69,45
+Sugar,Madhur,1838,4/11/2024,26-11-2023,25-11-2025,"8 Months, 3 Days",481,75,406,48
+Soap,Lux,4389,22-06-2025,7/11/2023,6/11/2025,"7 Months, 14 Days",404,137,267,36
+Cheese,Britannia,4596,5/9/2023,1/9/2023,28-02-2024,"11 Months, 7 Days",284,109,175,31
+Frozen Vegetables,Safal,2381,13-02-2024,20-04-2023,19-04-2024,23 Days,308,10,298,47
+Protein Powder,Optimum Nutrition,2419,18-08-2025,29-10-2024,29-10-2026,"1 Years, 7 Months, 6 Days",482,133,349,43
+Bread,Britannia,4491,2/9/2023,28-08-2023,4/9/2023,"5 Months, 10 Days",221,201,20,35
+Soft Drink,Coca Cola,8469,8/3/2025,23-10-2024,21-04-2025,25 Days,207,36,171,25
+Dishwashing Liquid,Vim,3747,28-02-2025,17-12-2023,16-12-2025,"8 Months, 24 Days",408,112,296,11
+Frozen Vegetables,Safal,4997,2/12/2025,27-12-2024,27-12-2025,"9 Months, 5 Days",63,49,14,44
+Juice,Real,6658,19-06-2023,10/5/2023,9/7/2023,"3 Months, 13 Days",338,273,65,39
+Milk,Amul,8320,20-01-2024,13-01-2024,23-01-2024,"10 Months, 1 Days",217,24,193,26
+Face Cream,Ponds,1471,21-04-2024,24-09-2023,23-09-2025,6 Months,325,307,18,19
+Juice,Real,8453,28-03-2025,18-03-2025,17-05-2025,"1 Months, 21 Days",101,50,51,45
+Green Tea,Lipton,8437,19-06-2023,11/5/2023,10/5/2024,"1 Months, 14 Days",248,97,151,50
+Chips,Lays,1504,18-10-2024,29-06-2024,27-10-2024,"7 Months, 4 Days",411,129,282,17
+Shampoo,Dove,6576,19-09-2026,5/10/2024,5/10/2026,"1 Years, 6 Months, 12 Days",328,133,195,48
+Salt,Tata,8171,23-04-2024,18-08-2023,17-08-2025,"4 Months, 23 Days",282,201,81,50
+Biscuits,Parle,1080,13-05-2023,11/5/2023,9/8/2023,"4 Months, 14 Days",90,69,21,35
+Green Tea,Lipton,4917,26-11-2024,9/12/2023,8/12/2024,"8 Months, 16 Days",121,85,36,47
+Instant Noodles,Maggi,3280,7/8/2023,6/5/2023,2/11/2023,"7 Months, 9 Days",68,40,28,29
+Biscuits,Parle,1841,27-01-2024,1/1/2024,31-03-2024,4 Days,423,163,260,21
+Protein Powder,Optimum Nutrition,3241,1/4/2025,29-06-2023,28-06-2025,"3 Months, 3 Days",201,171,30,19
+Peanut Butter,Sundrop,9303,29-09-2023,24-05-2023,23-05-2024,"1 Months, 27 Days",114,14,100,19
+Eggs,Suguna Foods,7166,13-11-2024,13-11-2024,4/12/2024,"8 Months, 12 Days",204,52,152,31
+Oil,Fortune,7089,2/6/2025,21-12-2024,21-12-2025,"8 Months, 29 Days",460,340,120,39
+Rice,India Gate,3041,27-02-2025,29-03-2024,29-03-2025,2 Days,423,280,143,46
+Chips,Lays,9893,1/9/2024,25-08-2024,23-12-2024,"9 Months, 1 Days",122,62,60,35
+Juice,Real,2759,31-10-2024,11/10/2024,10/12/2024,"8 Months, 18 Days",62,60,2,44
+Tea,Tata Tea,3676,29-07-2024,20-06-2024,20-06-2025,"2 Months, 25 Days",175,53,122,31
+Dry Fruits,Happilo,1795,30-01-2025,18-08-2024,18-08-2025,"4 Months, 24 Days",213,50,163,42
+Energy Drink,Red Bull,5326,13-09-2024,31-08-2024,29-11-2024,"8 Months, 7 Days",55,48,7,45
+Chicken,Suguna Foods,5400,22-09-2023,18-09-2023,23-09-2023,"5 Months, 29 Days",113,93,20,48
+Detergent Powder,Surf Excel,2670,21-11-2025,19-07-2024,19-07-2026,"1 Years, 3 Months, 24 Days",138,69,69,45
+Sugar,Madhur,3279,29-01-2026,26-05-2024,26-05-2026,"1 Years, 2 Months",470,268,202,26
+Chips,Lays,9147,20-07-2024,11/4/2024,9/8/2024,"4 Months, 15 Days",282,102,180,18
+Dishwashing Liquid,Vim,3031,10/7/2024,15-06-2023,14-06-2025,"2 Months, 19 Days",489,239,250,30
+Butter,Amul,3769,13-04-2024,18-01-2024,17-04-2024,21 Days,459,323,136,11
+Cereal,Kellogg's,3536,22-04-2024,6/11/2023,4/5/2024,"1 Months, 8 Days",375,373,2,45
+Sanitary Napkins,Whisper,8089,21-01-2026,28-02-2025,28-02-2027,"1 Years, 11 Months, 8 Days",166,155,11,35
+Dry Fruits,Happilo,5814,26-06-2024,5/11/2023,4/11/2024,"7 Months, 12 Days",262,34,228,39
+Dishwashing Liquid,Vim,6941,1/8/2026,23-08-2024,23-08-2026,"1 Years, 4 Months, 29 Days",118,63,55,22
+Coffee,Nescafe,4109,10/3/2025,26-06-2024,26-06-2025,"3 Months, 1 Days",119,114,5,48
+Yogurt,Nestle,8350,17-05-2023,11/5/2023,25-05-2023,"1 Months, 28 Days",199,84,115,41
+Chocolate,Cadbury,4120,7/8/2025,2/12/2024,29-08-2025,"5 Months, 5 Days",247,71,176,23
+Shaving Foam,Gillette,5247,3/3/2025,4/12/2023,3/12/2025,"8 Months, 11 Days",162,154,8,14
+Eggs,Suguna Foods,1874,14-05-2023,6/5/2023,27-05-2023,2 Months,85,29,56,47
+Detergent Powder,Surf Excel,4020,5/7/2026,10/9/2024,10/9/2026,"1 Years, 5 Months, 17 Days",405,54,351,47
+Juice,Real,1376,5/12/2024,19-10-2024,18-12-2024,"8 Months, 26 Days",310,263,47,19
+Salt,Tata,7267,22-03-2024,23-04-2023,22-04-2025,26 Days,91,51,40,28
+Juice,Real,9154,8/11/2023,15-10-2023,14-12-2023,"8 Months, 21 Days",56,14,42,46
+Shaving Foam,Gillette,6865,22-07-2024,5/8/2023,4/8/2025,"4 Months, 10 Days",436,125,311,42
+Juice,Real,4705,18-04-2024,22-02-2024,22-04-2024,26 Days,167,61,106,28
+Tea,Tata Tea,9994,14-04-2025,23-06-2024,23-06-2025,"2 Months, 28 Days",337,241,96,18
+Tea,Tata Tea,4630,20-09-2023,31-03-2023,30-03-2024,3 Days,96,33,63,15
+Chocolate,Cadbury,3376,30-09-2024,15-07-2024,11/4/2025,15 Days,423,65,358,21
+Coffee,Nescafe,5826,27-10-2024,21-08-2024,21-08-2025,"4 Months, 27 Days",184,39,145,16
+Energy Drink,Red Bull,4779,17-02-2024,28-01-2024,27-04-2024,"1 Months, 1 Days",371,282,89,50
+Green Tea,Lipton,7609,25-02-2024,15-11-2023,14-11-2024,"7 Months, 22 Days",402,214,188,21
+Salt,Tata,4199,24-01-2025,11/12/2024,11/12/2026,"1 Years, 8 Months, 19 Days",327,37,290,11
+Mushrooms,Golden Harvest,7628,4/5/2023,4/5/2023,11/5/2023,"1 Months, 14 Days",174,20,154,42
+Instant Noodles,Maggi,2620,21-10-2023,21-06-2023,18-12-2023,"8 Months, 25 Days",449,210,239,14
+Salt,Tata,1140,3/12/2025,17-03-2025,17-03-2027,"1 Years, 11 Months, 25 Days",373,116,257,16
+Biscuits,Parle,6952,4/10/2024,2/9/2024,1/12/2024,"8 Months, 9 Days",254,221,33,33
+Sugar,Madhur,6724,22-11-2025,19-09-2024,19-09-2026,"1 Years, 5 Months, 26 Days",342,333,9,34
+Ice Cream,Kwality Walls,4638,21-06-2024,13-05-2024,9/11/2024,"7 Months, 17 Days",273,165,108,17
+Green Tea,Lipton,6203,14-11-2023,5/10/2023,4/10/2024,"6 Months, 11 Days",109,11,98,22
+Tomato Ketchup,Heinz,6309,30-04-2025,28-10-2024,28-10-2025,"7 Months, 5 Days",213,18,195,48
+Shaving Foam,Gillette,2238,6/4/2026,13-09-2024,13-09-2026,"1 Years, 5 Months, 20 Days",484,230,254,42
+Detergent Powder,Surf Excel,5307,7/8/2026,29-11-2024,29-11-2026,"1 Years, 8 Months, 7 Days",373,35,338,44
+Sanitary Napkins,Whisper,4687,1/2/2024,20-08-2023,19-08-2025,"4 Months, 25 Days",438,139,299,50
+Hand Sanitizer,Dettol,4665,21-04-2025,13-08-2024,13-08-2026,"1 Years, 4 Months, 19 Days",310,116,194,49
+Toothpaste,Colgate,1377,22-11-2023,4/6/2023,3/6/2025,"2 Months, 8 Days",407,368,39,48
+Chips,Lays,7998,5/3/2025,8/2/2025,8/6/2025,"2 Months, 13 Days",498,337,161,29
+Frozen Vegetables,Safal,5033,20-06-2024,2/4/2024,2/4/2025,6 Days,221,208,13,39
+Cereal,Kellogg's,4526,11/2/2025,9/12/2024,7/6/2025,"2 Months, 12 Days",478,264,214,16
+Butter,Amul,5587,4/10/2023,6/8/2023,4/11/2023,"7 Months, 11 Days",228,210,18,23
+Detergent Powder,Surf Excel,4459,28-09-2024,22-05-2023,21-05-2025,"1 Months, 25 Days",358,356,2,32
+Protein Powder,Optimum Nutrition,7434,22-11-2024,18-05-2023,17-05-2025,"1 Months, 21 Days",214,143,71,23
+Milk,Amul,7075,2/2/2025,26-01-2025,5/2/2025,"10 Months, 15 Days",148,31,117,22
+Sanitary Napkins,Whisper,7160,3/10/2025,29-06-2024,29-06-2026,"1 Years, 3 Months, 4 Days",447,146,301,48
+Biscuits,Parle,4324,12/8/2023,7/7/2023,5/10/2023,"6 Months, 11 Days",455,168,287,40
+Milk,Amul,6308,1/9/2024,25-08-2024,4/9/2024,"5 Months, 11 Days",107,17,90,48
