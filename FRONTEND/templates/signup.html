@@ -13,21 +13,34 @@
 
     <div class="container">
         <div class="card">
-            <h2 class="title">Signup</h2>
-            <form id="loginForm">
+            <h2 class="title">Login</h2>
+            <form id="signupForm">
+                <!-- Role Selection Buttons -->
+                <div class="role-selection">
+                    <button type="button" class="role-btn" id="admin-btn" data-role="Administrator">Administrator</button>
+                    <button type="button" class="role-btn" id="customer-btn" data-role="Customer">Customer</button>
+                </div>
+            
+                <!-- Hidden Input for Selected Role -->
+                <input type="hidden" id="role" required>
+            
+                <!-- Username Field -->
                 <div class="input-group">
                     <span class="icon">👤</span>
                     <input type="text" id="username" placeholder="Username" required>
                 </div>
+            
+                <!-- Password Field -->
                 <div class="input-group">
                     <span class="icon">🔒</span>
                     <input type="password" id="password" placeholder="Password" required>
                 </div>
+            
                 <button type="submit" class="login-btn">Login</button>
-                <p class="register-link">Already registered? <a href="login.html">Login</a></p>
-
-
+                <p class="register-link">Don't have an account? <a href="role.html">signup</a></p>
             </form>
+            
+            
         </div>
     </div>
 

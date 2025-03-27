@@ -128,3 +128,49 @@ body {
 .register-link a:hover {
     text-decoration: underline;
 }
+/* Dropdown Styling */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+select:focus {
+    border-color: #ff7300;
+    box-shadow: 0 0 5px rgba(255, 115, 0, 0.5);
+}
+/* Role Selection Buttons */
+.role-selection {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.role-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #dbb90f;
+    background: none;
+    color: #dbb90f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.role-btn:hover {
+    background: #dbb90f;
+    color: white;
+}
+
+/* Highlight Selected Role */
+.role-btn.selected {
+    background: #dbb90f;
+    color: white;
+}

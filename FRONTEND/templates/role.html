@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Role - INNOVAID</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Background Styling */
+        body {
+            background: #0d0d0d;
+            color: #ddd;
+        }
+
+        /* Smooth fade-in effect */
+        .fade-in {
+            opacity: 0;
+            transform: scale(0.9);
+            animation: fadeIn 0.6s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Hover effect */
+        .role-btn {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+        }
+
+        .role-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(212, 89, 6, 0.7);
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-black text-white">
+
+    <div class="text-center fade-in">
+        <h1 class="text-4xl font-extrabold mb-8 text-orange-500">Select Your Role</h1>
+        
+        <div class="flex flex-col md:flex-row gap-8">
+            <!-- Administrator Button -->
+            <a href="administratorsignup.html" 
+               class="role-btn w-64 bg-orange-600 text-black font-bold py-6 rounded-lg text-2xl shadow-lg hover:bg-orange-700 flex flex-col items-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Admin Icon" class="w-16 h-16 mb-2">
+                Administrator
+            </a>
+
+            <!-- Customer Button -->
+            <a href="customersignup.html" 
+               class="role-btn w-64 bg-yellow-500 text-black font-bold py-6 rounded-lg text-2xl shadow-lg hover:bg-yellow-600 flex flex-col items-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/456/456283.png" alt="Customer Icon" class="w-16 h-16 mb-2">
+                Customer
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
