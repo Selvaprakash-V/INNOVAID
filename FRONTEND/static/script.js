@@ -1,33 +1,55 @@
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("INNOVAID Loaded!");
+document.addEventListener("DOMContentLoaded", () => {
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('.nav-links a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
 
-    // Get Dark Mode Toggle Button
-    const toggleBtn = document.getElementById("darkModeToggle");
+    // Form Validation
+    const form = document.querySelector('.contact-form');
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
 
-    if (!toggleBtn) {
-        console.error("Dark Mode button not found!");
-        return;
-    }
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const message = document.getElementById('message').value.trim();
+        const checkbox = document.querySelector('.contact-form input[type="checkbox"]');
 
-    // Function to toggle dark mode
-    function toggleDarkMode() {
-        document.body.classList.toggle("dark-mode");
-
-        if (document.body.classList.contains("dark-mode")) {
-            localStorage.setItem("darkMode", "enabled");
-            toggleBtn.textContent = "☀️"; // Change icon when dark mode is on
-        } else {
-            localStorage.setItem("darkMode", "disabled");
-            toggleBtn.textContent = "🌙"; // Change icon when light mode is on
+        if (name === "" || email === "" || message === "") {
+            alert("Please fill in all fields.");
+            return;
         }
-    }
 
-    // Load saved dark mode preference
-    if (localStorage.getItem("darkMode") === "enabled") {
-        document.body.classList.add("dark-mode");
-        toggleBtn.textContent = "☀️"; // Set correct icon on page load
-    }
+        if (!checkbox.checked) {
+            alert("You must accept the terms to continue.");
+            return;
+        }
 
-    // Attach event listener to button
-    toggleBtn.addEventListener("click", toggleDarkMode);
+        alert("Form submitted successfully!");
+        form.reset();
+    });
+
+    // Animation on scroll
+    const elements = document.querySelectorAll('.solution-card');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.transform = "scale(1.05)";
+                entry.target.style.transition = "0.3s";
+            } else {
+                entry.target.style.transform = "scale(1)";
+            }
+        });
+    }, { threshold: 0.5 });
+
+    elements.forEach(el => observer.observe(el));
 });

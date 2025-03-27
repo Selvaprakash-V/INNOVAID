@@ -3,66 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovaid - Expiry Tracking System</title>
-    <link rel="stylesheet" href="style.css">
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const isAuthenticated = sessionStorage.getItem('authToken');
-            const isPageRefresh = performance.navigation.type === 1;
-
-            if (!isAuthenticated && isPageRefresh) {
-                window.location.href = 'login.html';
-            }
-        });
-    </script>
+    <title>INNOVAID - Smart Expiry Tracking</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">INNOVAID</div>
+
+    <!-- Hero Section -->
+    <header class="hero">
         <nav>
-            <ul>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="products.html">Our Solutions</a></li>
-                <li><a href="analytics.html">Analytics</a></li>
-                <li><a href="support.html">Support</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="logout.html" id="logout-btn">Logout</a></li>
+            <div class="logo">INNOVAID</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">How</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="btn">Limited Access</a></li>
             </ul>
         </nav>
-    </header>
-    
-    <section class="hero">
-        <h1>Smart Expiry Tracking with AI</h1>
-        <p>The ultimate solution for businesses to prevent product wastage and ensure safe consumption.</p>
-        <div class="statistics">
-            <div>
-                <h2>1M+</h2>
-                <p>Products Tracked</p>
-            </div>
-            <div>
-                <h2>500+</h2>
-                <p>Businesses Integrated</p>
+
+        <div class="hero-content">
+            <h1>Track Expiry, Minimize Waste, Maximize Awareness</h1>
+            <p>INNOVAID helps you track expiry dates smartly, reducing waste and increasing awareness.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn">Get Started</a>
+                <a href="#" class="btn outline">Sign Up</a>
             </div>
         </div>
-        <a href="howitworks.html"><button class="btn">How it Works</button></a>
+    </header>
+
+    <!-- Trusted Brands Section -->
+    <section class="trusted">
+        <h2>Trusted by Leading Supermarkets & Brands Globally</h2>
+        <div class="brands">
+            <span>Walmart</span>
+            <span>Kroger</span>
+            <span>Target</span>
+            <span>Aldi</span>
+            <span>Lidl</span>
+        </div>
     </section>
 
-    <section id="features">
-        <h2>Why Choose Innovaid?</h2>
-        <div class="features">
-            <div class="feature">
-                <h3>AI-Powered</h3>
-                <p>Automated expiry tracking with smart predictions.</p>
+    <!-- Smart Expiry Solutions -->
+    <section class="solutions">
+        <h2>Smart Expiry Solutions</h2>
+        <p>INNOVAID offers smart expiry tracking, inventory alerts, and QR-based tracking.</p>
+        <div class="solution-grid">
+            <div class="solution-card">
+                <h3>Shop Registration</h3>
+                <p>Register your shop and manage inventory efficiently.</p>
             </div>
-            <div class="feature">
-                <h3>Seamless Integration</h3>
-                <p>Works with existing inventory management systems.</p>
+            <div class="solution-card highlight">
+                <h3>Expiry Trends</h3>
+                <p>Optimize inventory with expiry trend tracking.</p>
             </div>
-            <div class="feature">
-                <h3>Real-Time Alerts</h3>
-                <p>Get instant notifications to avoid losses.</p>
+            <div class="solution-card">
+                <h3>Inventory Alerts</h3>
+                <p>Receive timely alerts for expiring products.</p>
+            </div>
+            <div class="solution-card">
+                <h3>QR Tracking</h3>
+                <p>Track purchases via QR codes and receive notifications.</p>
             </div>
         </div>
     </section>
+
+    <!-- Portal Section -->
+    <section class="portals">
+        <div class="portal">
+            <h2>Seller Portal</h2>
+            <p>Track expiry trends, inventory alerts, and maximize profits.</p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
+        <div class="portal">
+            <h2>Consumer Portal</h2>
+            <ul>
+                <li>✅ QR Tracking</li>
+                <li>✅ Expiry Alerts</li>
+            </ul>
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>We’d love to hear from you!</p>
+            <p>📧 info@innovaid.com</p>
+            <p>📞 +1-555-123-4567</p>
+            <p>📍 123 Main St, Anytown, 12345</p>
+        </div>
+        <form class="contact-form">
+            <label for="name">First Name</label>
+            <input type="text" id="name" placeholder="First Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="name@company.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Type your message..." required></textarea>
+
+            <label class="checkbox">
+                <input type="checkbox" required> Accept the terms
+            </label>
+
+            <button type="submit" class="btn">Get Started</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 INNOVAID. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
