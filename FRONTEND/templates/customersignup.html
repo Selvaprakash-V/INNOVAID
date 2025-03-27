@@ -74,7 +74,7 @@
             box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
         }
 
-        /* Error Message */
+        /* Error Message Styling */
         .error {
             color: #FFD700;
             font-size: 0.9rem;
@@ -113,12 +113,16 @@
                 <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
             </div>
 
-            <p id="error-message" class="error">Passwords do not match!</p>
+            <!-- Error Messages -->
+            <p id="error-message" class="error">⚠️ Passwords do not match!</p>
+            <p id="password-error" class="error">⚠️ Password must be at least 8 characters and include uppercase, lowercase, and a number.</p>
 
             <button type="submit" class="btn">Sign Up</button>
         </form>
 
-        <p class="mt-4 text-gray-400">Already registered? <a href="login.html" class="text-yellow-300 font-semibold">Login</a></p>
+        <p class="mt-4 text-gray-400">Already registered? 
+            <a href="login.html" class="text-yellow-300 font-semibold">Login</a>
+        </p>
     </div>
 
     <script>
@@ -130,20 +134,25 @@
             let password = document.getElementById("password").value;
             let confirmPassword = document.getElementById("confirmPassword").value;
             let errorMessage = document.getElementById("error-message");
+            let passwordError = document.getElementById("password-error");
 
             // Email validation regex
             let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
-            if (!fullName || !email || !password || !confirmPassword) {
-                alert("All fields are required!");
-                return;
-            }   
-
             if (!emailPattern.test(email)) {
                 alert("Enter a valid email address!");
                 return;
             }
 
+            // Password Strength Validation (Min 8 chars, Upper, Lower, Number)
+            let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+            if (!passwordPattern.test(password)) {
+                passwordError.style.display = "block";
+                return;
+            } else {
+                passwordError.style.display = "none";
+            }
+
+            // Password Match Validation
             if (password !== confirmPassword) {
                 errorMessage.style.display = "block";
                 return;
@@ -152,6 +161,7 @@
             }
 
             alert("Customer Signup Successful!");
+            console.log(`Full Name: ${fullName}, Email: ${email}, Password: ${password}`);
         });
     </script>
 
