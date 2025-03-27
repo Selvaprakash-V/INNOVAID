@@ -1,0 +1,154 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #ff5733; /* Orange border */
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ff5733;
+    font-weight: bold;
+    transition: transform 0.3s, color 0.3s;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.hero .statistics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.hero .statistics div {
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1s forwards 0.3s;
+}
+
+.hero .statistics h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+    color: #ff5733;
+}
+
+.hero .btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ff4500;
+    transform: translateY(-3px);
+}
+
+/* Features Section */
+#features {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: white;
+    border-top: 2px solid #ff5733;
+}
+
+#features h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #ff5733;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://source.unsplash.com/1600x900/?technology,ai');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}

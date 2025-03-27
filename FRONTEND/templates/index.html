@@ -3,48 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INNOVAID - Transforming Purchases</title>
+    <title>Innovaid - Expiry Tracking System</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const isAuthenticated = sessionStorage.getItem('authToken');
+            const isPageRefresh = performance.navigation.type === 1;
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- AOS (Animate On Scroll) Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="static/styles.css">
+            if (!isAuthenticated && isPageRefresh) {
+                window.location.href = 'login.html';
+            }
+        });
+    </script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-    
-    <!-- Header -->
-    <header class="bg-blue-600 text-white p-4 flex justify-between items-center shadow-md">
-        <h2 class="text-4xl font-bold" data-aos="fade-up">Welcome to INNOVAID</h2>
-
-        <nav class="flex items-center space-x-4">
-            <button id="darkModeToggle" class="px-4 py-2 bg-gray-800 text-white rounded">🌙</button>
-            <a href="login.html" class="px-4 py-2 bg-white text-blue-600 rounded hover:bg-gray-200">Login</a>
-            <a href="signup.html" class="px-4 py-2 bg-white text-blue-600 rounded hover:bg-gray-200">Sign Up</a>
+<body>
+    <header class="navbar">
+        <div class="logo">INNOVAID</div>
+        <nav>
+            <ul>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="products.html">Our Solutions</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="logout.html" id="logout-btn">Logout</a></li>
+            </ul>
         </nav>
     </header>
-
-    <!-- Hero Section -->
-    <section class="flex flex-col items-center justify-center h-screen text-center">
-        <h2 class="text-4xl font-bold mb-4" data-aos="fade-right">Smart Expiry Tracking</h2>
-        <p class="text-lg text-gray-600 mb-6" data-aos="fade-left">Minimize Waste, Maximize Awareness!</p>
-        <a href="signup.html" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition" data-aos="zoom-in">Get Started</a>
+    
+    <section class="hero">
+        <h1>Smart Expiry Tracking with AI</h1>
+        <p>The ultimate solution for businesses to prevent product wastage and ensure safe consumption.</p>
+        <div class="statistics">
+            <div>
+                <h2>1M+</h2>
+                <p>Products Tracked</p>
+            </div>
+            <div>
+                <h2>500+</h2>
+                <p>Businesses Integrated</p>
+            </div>
+        </div>
+        <a href="howitworks.html"><button class="btn">How it Works</button></a>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-blue-600 text-white text-center p-3 absolute bottom-0 w-full">
-        <p>© 2024 INNOVAID. All rights reserved.</p>
-    </footer>
-
-    <!-- Load JavaScript files in correct order -->
-    <script src="static/script.js"></script> <!-- Custom JavaScript -->
-    <script>
-        AOS.init();  // Initialize AOS animations
-    </script>
-
+    <section id="features">
+        <h2>Why Choose Innovaid?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>AI-Powered</h3>
+                <p>Automated expiry tracking with smart predictions.</p>
+            </div>
+            <div class="feature">
+                <h3>Seamless Integration</h3>
+                <p>Works with existing inventory management systems.</p>
+            </div>
+            <div class="feature">
+                <h3>Real-Time Alerts</h3>
+                <p>Get instant notifications to avoid losses.</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
