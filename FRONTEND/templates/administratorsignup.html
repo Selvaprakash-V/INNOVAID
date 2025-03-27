@@ -115,6 +115,7 @@
 
             <!-- Error Message -->
             <p id="error-message" class="error">⚠️ Passwords do not match!</p>
+            <p id="password-error" class="error">⚠️ Password must be at least 8 characters and include uppercase, lowercase, and a number.</p>
 
             <button type="submit" class="btn">Sign Up</button>
         </form>
@@ -133,12 +134,22 @@
             const password = document.getElementById("password").value;
             const confirmPassword = document.getElementById("confirmPassword").value;
             const errorMessage = document.getElementById("error-message");
+            const passwordError = document.getElementById("password-error");
 
             // Email Validation
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailPattern.test(email)) {
                 alert("Please enter a valid email address!");
                 return;
+            }
+
+            // Password Strength Validation (Min 8 chars, Upper, Lower, Number)
+            const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+            if (!passwordPattern.test(password)) {
+                passwordError.style.display = "block";
+                return;
+            } else {
+                passwordError.style.display = "none";
             }
 
             // Password Match Validation
