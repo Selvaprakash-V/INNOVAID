@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - INNOVAID</title>
+    <title>About INNOVAID</title>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,128 +13,152 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="static/styles.css">
+    <style>
+        /* Background Image */
+        body {
+            background: url('https://media.licdn.com/dms/image/v2/D4D12AQETcKrloH4iWQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1693680715319?e=2147483647&v=beta&t=teYEUrMyvJOuLv3gfk6oC5McfQyD2vEzm_uCtfNvnpU') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #d3d3d3;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Dark Overlay to Dull the Background */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+            z-index: -1;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: rgba(255, 123, 0, 0.9); /* Semi-transparent orange navbar */
+            color: #101010; /* Black text */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #101010; /* Black text for nav links */
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #333; /* Slightly darker hover effect */
+        }
+
+        /* Section Styling */
+        section {
+            padding: 4rem 2rem;
+        }
+
+        .main-content {
+            padding-top: 80px; /* Adjust for navbar height */
+        }
+
+        .info-box {
+            background: rgba(0, 0, 0, 0.7); /* Light black background for better visibility */
+            border: 2px solid #d3d3d3;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            transition: box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .info-box:hover {
+            border-color: #ff7b00;
+            box-shadow: 0 0 20px #ff7b00; /* Add orange glow effect */
+        }
+
+        .btn {
+            background: #ff7b00;
+            color: #fff;
+            font-weight: bold;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff944d;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #ff7b00;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
 </head>
-<body class="bg-black text-gray-300">
+<body>
 
     <!-- Header -->
-    <header class="bg-gradient-to-r from-orange-600 to-orange-500 text-black p-4 shadow-lg fixed top-0 w-full z-50">
-        <div class="container mx-auto flex justify-between items-center">
-            <!-- Logo -->
-            <h1 class="text-3xl font-extrabold tracking-wide hover:scale-105 transition-transform duration-300">
-                INNOVAID
-            </h1>
-    
-            <!-- Navigation Menu (Hidden on Mobile) -->
-            <nav class="hidden md:flex items-center space-x-6 text-lg font-medium">
-                <a href="index.html" class="hover:text-white transition duration-300">Home</a>
-                <a href="contact.html" class="hover:text-white transition duration-300">Contact</a>
-                <a href="login.html" class="btn bg-black text-orange-500 px-4 py-2 rounded hover:bg-gray-900 transition duration-300">LOGIN</a>
-            </nav>
-    
-            <!-- Mobile Menu Button -->
-            <button id="menu-btn" class="md:hidden focus:outline-none">
-                <svg class="w-8 h-8 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
-            </button>
-        </div>
-    
-        <!-- Mobile Dropdown Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-orange-600 text-center p-4 space-y-2">
-            <a href="index.html" class="block py-2 hover:bg-orange-500 transition duration-300">Home</a>
-            <a href="about.html" class="block py-2 hover:bg-orange-500 transition duration-300">About</a>
-            <a href="contact.html" class="block py-2 hover:bg-orange-500 transition duration-300">Contact</a>
-            <a href="login.html" class="block py-2 bg-black text-orange-500 rounded hover:bg-gray-900 transition duration-300">LOGIN</a>
-        </div>
-    
-        <script>
-            // Mobile Menu Toggle
-            document.getElementById("menu-btn").addEventListener("click", function () {
-                document.getElementById("mobile-menu").classList.toggle("hidden");
-            });
-        </script>
+    <header>
+        <nav class="flex justify-between items-center p-4 shadow-md">
+            <h1 class="text-3xl font-extrabold tracking-wide">INNOVAID</h1>
+            <div class="space-x-6">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="index.html">Back</a> <!-- Back link -->
+            </div>
+        </nav>
     </header>
-    
 
-    <!-- About Us Section -->
-    <section class="max-w-4xl mt-40 mx-auto my-20 p-8 bg-gray-900 shadow-lg rounded-lg" data-aos="fade-up">
-        <h2 class="text-4xl font-bold text-center text-orange-500">About INNOVAID</h2>
-        <p class="text-gray-400 text-lg mt-4 text-center">
-            INNOVAID is an advanced inventory management system designed to help businesses track their stock, 
-            monitor expiry dates, and reduce waste effectively. Our mission is to provide a **smart, efficient, and intuitive** 
-            solution for businesses of all sizes.
+    <!-- About Section -->
+    <section class="main-content max-w-6xl mx-auto text-center">
+        <h2 class="text-4xl font-bold text-white mb-6">About INNOVAID</h2>
+        <p class="text-lg mb-10 text-gray-300">
+            INNOVAID simplifies inventory management for both **supermarkets** and **consumers**, offering smart solutions to track expiry dates, reduce wastage, and enhance efficiency. Here's how it works:
         </p>
-    </section>
 
-    <!-- Features Section -->
-    <section class="grid grid-cols-2 md:grid-cols-2 gap-6 max-w-5xl mx-auto my-16" data-aos="fade-up">
-        <!-- Feature 1 -->
-        <div class="p-6 bg-gray-800 shadow-lg rounded-lg text-center" data-aos="fade-right">
-            <h3 class="text-xl font-bold text-orange-500">Real-time Tracking</h3>
-            <p class="text-gray-400 mt-2">Monitor inventory status with live updates and avoid stock shortages.</p>
+        <!-- Supermarket Portal -->
+        <div class="info-box mb-8" data-aos="fade-up">
+            <h3 class="text-2xl font-bold text-white mb-4">For Supermarkets</h3>
+            <p class="text-gray-300">
+                Supermarkets benefit from powerful tools to manage inventory effectively:
+            </p>
+            <ul class="list-disc list-inside mt-4 text-left mx-auto max-w-sm text-gray-300">
+                <li>Real-time stock tracking</li>
+                <li>Predictive analytics for future demand</li>
+                <li>Expiry alerts to reduce wastage</li>
+            </ul>
         </div>
-        
-        <!-- Feature 2 -->
-        <div class="p-6 bg-gray-800 shadow-lg rounded-lg text-center" data-aos="fade-left">
-            <h3 class="text-xl font-bold text-orange-500">Expiry Alerts</h3>
-            <p class="text-gray-400 mt-2">Get notified before your inventory items expire to minimize waste.</p>
-        </div>
-        
-        <!-- Feature 3 -->
-        <div class="p-6 bg-gray-800 shadow-lg rounded-lg text-center" data-aos="fade-right">
-            <h3 class="text-xl font-bold text-orange-500">Seamless Integration</h3>
-            <p class="text-gray-400 mt-2">Easily integrate with hardware and other software solutions.</p>
-        </div>
-        <div class="p-6 bg-gray-800 shadow-lg rounded-lg text-center" data-aos="fade-left">
-            <h3 class="text-xl font-bold text-orange-500">Predictive Analatics</h3>
-            <p class="text-gray-400 mt-2">Based on old trends order the stocks for futher sales.</p>
-        </div>
-    </section>
 
-    <!-- Team Section -->
-    <section class="max-w-4xl mx-auto my-16 p-8 bg-gray-900 shadow-lg rounded-lg text-center" data-aos="fade-up">
-        <h2 class="text-3xl font-bold text-orange-500">Meet Our Team</h2>
-        <p class="text-gray-400 mt-4">
-            Our passionate team of developers, designers, and business experts work together to make **INNOVAID** a cutting-edge inventory management solution.
-        </p>
-        <div class="flex flex-wrap justify-center gap-6 mt-6">
-            <!-- Team Member 1 -->
-            <div class="p-4 bg-gray-800 rounded-lg shadow-md" data-aos="fade-right">
-                <img src="static/images/team1.jpg" alt="Team Member" class="w-24 h-24 rounded-full mx-auto">
-                <h3 class="text-lg font-semibold mt-2 text-orange-400">Sasitharan</h3>
-                <p class="text-gray-500">Lead Developer</p>
-            </div>
-            <!-- Team Member 2 -->
-            <div class="p-4 bg-gray-800 rounded-lg shadow-md" data-aos="fade-up">
-                <img src="static/images/team2.jpg" alt="Team Member" class="w-24 h-24 rounded-full mx-auto">
-                <h3 class="text-lg font-semibold mt-2 text-orange-400">Yugendra</h3>
-                <p class="text-gray-500">UI/UX Designer</p>
-            </div>
-            <!-- Team Member 3 -->
-            <div class="p-4 bg-gray-800 rounded-lg shadow-md" data-aos="fade-up">
-                <img src="static/images/team3.jpg" alt="Team Member" class="w-24 h-24 rounded-full mx-auto">
-                <h3 class="text-lg font-semibold mt-2 text-orange-400">Selvaprakash</h3>
-                <p class="text-gray-500">Business Strategist</p>
-            </div>
-
-            <div class="p-4 bg-gray-800 rounded-lg shadow-md" data-aos="fade-left">
-                <img src="static/images/team3.jpg" alt="Team Member" class="w-24 h-24 rounded-full mx-auto">
-                <h3 class="text-lg font-semibold mt-2 text-orange-400">Suriyaprakash</h3>
-                <p class="text-gray-500">Business Strategist</p>
-            </div>
+        <!-- Consumer Portal -->
+        <div class="info-box" data-aos="fade-up">
+            <h3 class="text-2xl font-bold text-white mb-4">For Consumers</h3>
+            <p class="text-gray-300">
+                Consumers can track product purchases and access detailed information:
+            </p>
+            <ul class="list-disc list-inside mt-4 text-left mx-auto max-w-sm text-gray-300">
+                <li>Find affiliated supermarkets</li>
+                <li>View recent purchases and expiry details</li>
+                <li>Receive alerts for items nearing expiration</li>
+            </ul>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-orange-600 text-black text-center p-3 mt-6">
-        <p>© 2024 INNOVAID. All rights reserved.</p>
+    <footer>
+        <p>© 2025 INNOVAID. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript -->
     <script>
-        AOS.init();  // Initialize AOS animations
+        AOS.init(); // Initialize Animate on Scroll
     </script>
-    <script src="static/script.js"></script> <!-- Load custom script -->
 </body>
 </html>

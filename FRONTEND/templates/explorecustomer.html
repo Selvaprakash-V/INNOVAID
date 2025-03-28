@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Customer Features</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <style>
+        /* Background styling */
+        body {
+            background: url('https://media.istockphoto.com/id/1387134070/photo/smart-store-management-systems-concept.jpg?s=612x612&w=0&k=20&c=zkk0Bxn5wvdL9SBlmAYx-hrZ_v_lQPxWVfocTj0HtHg=') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Reduced overlay transparency */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Reduced black overlay (50% transparency) */
+            z-index: -1;
+        }
+
+        /* Hover effect for feature boxes */
+        .feature-box {
+            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+            border: 2px solid transparent; /* Default border */
+        }
+        .feature-box:hover {
+            transform: scale(1.05);
+            border-color: #ff7b00; /* Bright orange border on hover */
+            box-shadow: 0 0 10px #ff7b00; /* Glowy orange effect */
+        }
+
+        /* Ensure content stays above background overlay */
+        section {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            justify-content: center; /* Center all content vertically */
+        }
+
+        /* Adjust heading positioning */
+        .heading {
+            position: absolute;
+            top: 10%; /* Position heading closer to the top of the viewport */
+        }
+
+        /* Style for "Go Back" button */
+        .go-back-button {
+            margin-top: 20px; /* Space between the button and the boxes */
+            background-color: #ff7b00; /* Bright orange color */
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .go-back-button:hover {
+            background-color: #ffa500; /* Slightly brighter orange on hover */
+            transform: scale(1.05); /* Small zoom effect */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Features Section -->
+    <section class="text-center">
+        <h2 class="heading text-3xl font-bold text-orange-500">Explore Customer Features</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <!-- Feature 1 -->
+            <div class="feature-box p-6 bg-gray-800 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold text-orange-400">📋 Expiry Alerts</h3>
+                <p class="text-gray-400 mt-2">Receive alerts for products nearing their expiry.</p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="feature-box p-6 bg-gray-800 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold text-orange-400">📱 QR Tracking</h3>
+                <p class="text-gray-400 mt-2">Scan QR codes to track purchase history seamlessly.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="feature-box p-6 bg-gray-800 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold text-orange-400">📦 Product Details</h3>
+                <p class="text-gray-400 mt-2">Access detailed information about your purchases.</p>
+            </div>
+            <!-- Feature 4 -->
+            <div class="feature-box p-6 bg-gray-800 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold text-orange-400">🛍️ Supermarket Browsing</h3>
+                <p class="text-gray-400 mt-2">Explore affiliated supermarkets and your bill records of them.</p>
+            </div>
+            <!-- Feature 5 -->
+            <div class="feature-box p-6 bg-gray-800 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold text-orange-400">💡 User Recommendations</h3>
+                <p class="text-gray-400 mt-2">Get personalized recommendations based on your habits.</p>
+            </div>
+            <!-- Feature 6 -->
+            <div class="feature-box p-6 bg-gray-800 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-bold text-orange-400">🔒 Secure Accounts</h3>
+                <p class="text-gray-400 mt-2">Enjoy advanced security for all your account activities.</p>
+            </div>
+        </div>
+
+        <!-- Go Back Button -->
+        <button class="go-back-button" onclick="window.location.href='index.html'">Go Back</button>
+    </section>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
