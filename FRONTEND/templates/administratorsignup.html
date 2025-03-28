@@ -18,7 +18,7 @@
             height: 100vh;
             background: url('https://wallpapercave.com/wp/wp9031365.jpg') no-repeat center center fixed;
             background-size: cover;
-            filter: blur(3px); /* Subtle blur effect */
+            filter: blur(3px);
             z-index: -1;
         }
 
@@ -29,7 +29,7 @@
             left: 0;
             width: 100%;
             height: 100vh;
-            background: rgba(0, 0, 0, 0.3); /* Slight fade */
+            background: rgba(0, 0, 0, 0.3);
             z-index: -1;
         }
 
@@ -44,7 +44,7 @@
 
         /* Card Styling */
         .card {
-            background: rgba(45, 43, 38, 0.95); /* Dark transparent background */
+            background: rgba(45, 43, 38, 0.95);
             padding: 2rem;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -123,12 +123,14 @@
                 <span class="icon">🏪</span>
                 <input type="text" id="shopName" placeholder="Shop Name" required>
             </div>
+            <p id="shopName-error" class="error">⚠️ Shop Name is required!</p>
 
             <!-- Email -->
             <div class="input-group">
                 <span class="icon">📧</span>
                 <input type="email" id="email" placeholder="Email" required>
             </div>
+            <p id="email-error" class="error">⚠️ Please enter a valid email!</p>
 
             <!-- Password -->
             <div class="input-group">
@@ -142,9 +144,9 @@
                 <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
             </div>
 
-            <!-- Error Message -->
+            <!-- Error Messages -->
+            <p id="password-error" class="error">⚠️ Password must be at least 8 characters and include an uppercase letter, a lowercase letter, and a number.</p>
             <p id="error-message" class="error">⚠️ Passwords do not match!</p>
-            <p id="password-error" class="error">⚠️ Password must be at least 8 characters and include uppercase, lowercase, and a number.</p>
 
             <button type="submit" class="btn">Sign Up</button>
         </form>
@@ -158,19 +160,55 @@
     document.getElementById("adminSignupForm").addEventListener("submit", function(event) {
         event.preventDefault();
 
+        // Get input values
+        const shopName = document.getElementById("shopName").value.trim();
+        const email = document.getElementById("email").value.trim();
         const password = document.getElementById("password").value;
         const confirmPassword = document.getElementById("confirmPassword").value;
 
-        // Check if passwords match
-        if (password !== confirmPassword) {
-            document.getElementById("error-message").style.display = "block";
-            return;
+        // Regex for validation
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Hide all errors initially
+        document.getElementById("shopName-error").style.display = "none";
+        document.getElementById("email-error").style.display = "none";
+        document.getElementById("password-error").style.display = "none";
+        document.getElementById("error-message").style.display = "none";
+
+        let isValid = true;
+
+        // Validate Shop Name
+        if (shopName === "") {
+            document.getElementById("shopName-error").style.display = "block";
+            isValid = false;
         }
 
-        // Redirect directly to Admin Dashboard
-        window.location.href = "adminDashboard.html"; // Change to your admin page URL
+        // Validate Email
+        if (!emailRegex.test(email)) {
+            document.getElementById("email-error").style.display = "block";
+            isValid = false;
+        }
+
+        // Validate Password
+        if (!passwordRegex.test(password)) {
+            document.getElementById("password-error").style.display = "block";
+            isValid = false;
+        }
+
+        // Validate Confirm Password
+        if (password !== confirmPassword) {
+            document.getElementById("error-message").style.display = "block";
+            isValid = false;
+        }
+
+        // If all inputs are valid, redirect to the dashboard
+        if (isValid) {
+            window.location.href = "adminDashboard.html"; // Change to your actual admin page URL
+        }
     });
 
     </script>
+
 </body>
 </html>
