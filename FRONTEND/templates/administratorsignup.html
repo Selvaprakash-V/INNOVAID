@@ -126,71 +126,22 @@
     </div>
 
     <script>
-        const API_URL = "http://127.0.0.1:5000/auth/signup";
+    document.getElementById("adminSignupForm").addEventListener("submit", function(event) {
+        event.preventDefault();
 
-        document.getElementById("adminSignupForm").addEventListener("submit", async function(event) {
-            event.preventDefault();
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirmPassword").value;
 
-            const shopName = document.getElementById("shopName").value.trim();
-            const email = document.getElementById("email").value.trim();
-            const password = document.getElementById("password").value;
-            const confirmPassword = document.getElementById("confirmPassword").value;
-            const errorMessage = document.getElementById("error-message");
-            const passwordError = document.getElementById("password-error");
+        // Check if passwords match
+        if (password !== confirmPassword) {
+            document.getElementById("error-message").style.display = "block";
+            return;
+        }
 
-            // Email Validation
-            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailPattern.test(email)) {
-                alert("Please enter a valid email address!");
-                return;
-            }
+        // Redirect directly to Admin Dashboard
+        window.location.href = "adminDashboard.html"; // Change to your admin page URL
+    });
 
-            // Password Strength Validation (Min 8 chars, Upper, Lower, Number)
-            const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
-            if (!passwordPattern.test(password)) {
-                passwordError.style.display = "block";
-                return;
-            } else {
-                passwordError.style.display = "none";
-            }
-
-            // Password Match Validation
-            if (password !== confirmPassword) {
-                errorMessage.style.display = "block";
-                return;
-            } else {
-                errorMessage.style.display = "none";
-            }
-
-            // Signup Data
-            const signupData = {
-                email: email,
-                password: password,
-                role: "admin",
-                shop_name: shopName
-            };
-
-            try {
-                const response = await fetch(API_URL, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(signupData)
-                });
-
-                const data = await response.json();
-
-                if (response.ok) {
-                    alert("Admin Signup Successful! Redirecting...");
-                    localStorage.setItem("token", data.access_token);
-                    localStorage.setItem("role", "admin");
-                    window.location.href = "seller-dashboard.html";
-                } else {
-                    alert(data.error);
-                }
-            } catch (error) {
-                alert("Error signing up. Please try again.");
-            }
-        });
     </script>
 
 </body>
