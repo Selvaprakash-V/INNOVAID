@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Inventory Tracker</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full">
+        <h2 class="text-2xl font-bold text-gray-800 text-center">📦 Your Inventories</h2>
+
+        <!-- Inventory List -->
+        <div class="mt-4">
+            <ul id="inventoryList" class="space-y-3"></ul>
+        </div>
+    </div>
+
+    <script>
+        let inventories = [
+            { id: 1, name: "Wheat Flour", price: 350, expiry: "2025-04-01" },
+            { id: 2, name: "Rice Bag", price: 800, expiry: "2025-03-25" }, // Expired Example
+            { id: 3, name: "Cooking Oil", price: 1200, expiry: "2025-04-05" },
+            { id: 4, name: "Milk Packet", price: 50, expiry: "2025-03-22" } // Expired Example
+        ];
+
+        function renderInventories() {
+            const inventoryList = document.getElementById("inventoryList");
+            inventoryList.innerHTML = "";
+
+            inventories.forEach((item) => {
+                const expiryDate = new Date(item.expiry);
+                const today = new Date();
+                const daysLeft = Math.ceil((expiryDate - today) / (1000 * 60 * 60 * 24));
+
+                let statusText = `${daysLeft} days left`;
+                let statusColor = "text-green-500";
+
+                if (daysLeft < 0) {
+                    statusText = "Expired";
+                    statusColor = "text-red-500 font-bold";
+                } else if (daysLeft <= 3) {
+                    statusColor = "text-orange-500";
+                }
+
+                inventoryList.innerHTML += `
+                    <li class="flex justify-between items-center bg-gray-50 p-3 rounded shadow">
+                        <div>
+                            <p class="font-bold">${item.name}</p>
+                            <p class="text-sm text-gray-600">₹${item.price} - <span class="${statusColor}">${statusText}</span></p>
+                        </div>
+                        <button onclick="deleteInventory(${item.id})" class="text-red-500 text-xl hover:text-red-700">❌</button>
+                    </li>
+                `;
+            });
+        }
+
+        function deleteInventory(id) {
+            inventories = inventories.filter(item => item.id !== id);
+            renderInventories();
+        }
+
+        renderInventories();
+    </script>
+
+</body>
+</html>

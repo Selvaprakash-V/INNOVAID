@@ -126,43 +126,32 @@
     </div>
 
     <script>
-        document.getElementById("customerSignupForm").addEventListener("submit", function(event) {
-            event.preventDefault();
+   document.getElementById("customerSignupForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
 
-            let fullName = document.getElementById("fullName").value.trim();
-            let email = document.getElementById("email").value.trim();
-            let password = document.getElementById("password").value;
-            let confirmPassword = document.getElementById("confirmPassword").value;
-            let errorMessage = document.getElementById("error-message");
-            let passwordError = document.getElementById("password-error");
+    let fullName = document.getElementById("fullName").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let password = document.getElementById("password").value;
+    let confirmPassword = document.getElementById("confirmPassword").value;
+    let errorMessage = document.getElementById("error-message");
+    let passwordError = document.getElementById("password-error");
 
-            // Email validation regex
-            let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-            if (!emailPattern.test(email)) {
-                alert("Enter a valid email address!");
-                return;
-            }
+    // Email validation regex
+    let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(email)) return;
 
-            // Password Strength Validation (Min 8 chars, Upper, Lower, Number)
-            let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
-            if (!passwordPattern.test(password)) {
-                passwordError.style.display = "block";
-                return;
-            } else {
-                passwordError.style.display = "none";
-            }
+    // Password Strength Validation (Min 8 chars, Upper, Lower, Number)
+    let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    if (!passwordPattern.test(password)) return;
 
-            // Password Match Validation
-            if (password !== confirmPassword) {
-                errorMessage.style.display = "block";
-                return;
-            } else {
-                errorMessage.style.display = "none";
-            }
+    // Password Match Validation
+    if (password !== confirmPassword) return;
 
-            alert("Customer Signup Successful!");
-            console.log(`Full Name: ${fullName}, Email: ${email}, Password: ${password}`);
-        });
+    // ✅ Redirect Directly to Dashboard
+    window.location.href = "customerDashboard.html"; 
+});
+
+
     </script>
 
 </body>

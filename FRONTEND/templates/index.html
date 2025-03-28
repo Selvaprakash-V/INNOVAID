@@ -64,12 +64,63 @@
     </section>
 
     <!-- Trusted Brands -->
-    <section class="text-center py-16 bg-black" data-aos="fade-up">
-        <h2 class="text-3xl font-bold text-orange-500">Trusted by Leading Supermarkets & Brands Globally</h2>
-        <div class="flex justify-center space-x-6 mt-4 text-gray-400">
-            <span>Walmart</span> <span>Kroger</span> <span>Target</span> <span>Aldi</span> <span>Lidl</span>
+<section class="text-center py-16 bg-black overflow-hidden">
+    <h2 class="text-3xl font-bold text-orange-500 mb-6">
+        Trusted by Leading Supermarkets & Brands Globally
+    </h2>
+    <div class="logo-container">
+        <div class="logo-track">
+            <img src="https://www.freepnglogos.com/uploads/walmart-logo-33.jpg" alt="Walmart" class="logo">
+            <img src="https://seeklogo.com/images/K/kroger-logo-6F8E3B2768-seeklogo.com.png" alt="Kroger" class="logo">
+            <img src="https://th.bing.com/th/id/R.65dc0636238990f17eeecc056fe82f25?rik=tbS%2b0ucbfhe2TA&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f9cp%2feRM%2f9cpeRMdyi.jpeg&ehk=%2fu%2fQuYs9eFr8%2bkIEoUZT1ny4klzUAbshL2xK%2bcWvQUc%3d&risl=&pid=ImgRaw&r=0" alt="Target" class="logo">
+            <img src="https://th.bing.com/th/id/OIP.ITQUlgO2Cwxo2902pgcCOQHaED?rs=1&pid=ImgDetMain" alt="Aldi" class="logo">
+            <img src="https://c8.alamy.com/comp/2BA7NTR/lidl-logo-2BA7NTR.jpg" alt="Lidl" class="logo">
+            <!-- Duplicates for smooth looping -->
+            <img src="https://www.freepnglogos.com/uploads/walmart-logo-33.jpg" alt="Walmart" class="logo">
+            <img src="https://seeklogo.com/images/K/kroger-logo-6F8E3B2768-seeklogo.com.png" alt="Kroger" class="logo">
+            <img src="https://th.bing.com/th/id/R.65dc0636238990f17eeecc056fe82f25?rik=tbS%2b0ucbfhe2TA&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f9cp%2feRM%2f9cpeRMdyi.jpeg&ehk=%2fu%2fQuYs9eFr8%2bkIEoUZT1ny4klzUAbshL2xK%2bcWvQUc%3d&risl=&pid=ImgRaw&r=0" alt="Target" class="logo">
+            <img src="https://th.bing.com/th/id/OIP.ITQUlgO2Cwxo2902pgcCOQHaED?rs=1&pid=ImgDetMain" alt="Aldi" class="logo">
+            <img src="https://c8.alamy.com/comp/2BA7NTR/lidl-logo-2BA7NTR.jpg" alt="Lidl" class="logo">
         </div>
-    </section>
+    </div>
+</section>
+
+<style>
+/* Full-width container */
+.logo-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* Track to move logos */
+.logo-track {
+    display: flex;
+    align-items: center;
+    gap: 10vw; /* Adjust space between logos */
+    width: max-content;
+    animation: scrollLogos 8s linear infinite;
+}
+
+/* Individual logo styling */
+.logo {
+    width: 10vw;  /* Adjust as needed */
+    max-width: 150px;
+    height: auto;
+}
+
+/* Keyframes for infinite scrolling effect */
+@keyframes scrollLogos {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+</style>
+
 
     <!-- Solutions -->
     <section class="text-center py-16 bg-gray-900" data-aos="fade-up">
