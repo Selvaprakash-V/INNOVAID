@@ -9,14 +9,29 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        /* Background Gradient */
+        /* Background Image */
         body {
-            background: linear-gradient(to right, #FFD700, #FFF3B0);
+            background: url('https://content.jdmagicbox.com/comp/def_content/departmental-stores/shutterstock-418522381-departmental-stores-6-894wo.jpg') no-repeat center center fixed;
+            background-size: cover;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             font-family: Arial, sans-serif;
+            position: relative;
+            margin: 0;
+        }
+
+        /* Dim and Transparent Overlay */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+            z-index: -1; /* Places the overlay behind the content */
         }
 
         /* Card Styling */
@@ -126,32 +141,30 @@
     </div>
 
     <script>
-   document.getElementById("customerSignupForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
+        document.getElementById("customerSignupForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
 
-    let fullName = document.getElementById("fullName").value.trim();
-    let email = document.getElementById("email").value.trim();
-    let password = document.getElementById("password").value;
-    let confirmPassword = document.getElementById("confirmPassword").value;
-    let errorMessage = document.getElementById("error-message");
-    let passwordError = document.getElementById("password-error");
+            let fullName = document.getElementById("fullName").value.trim();
+            let email = document.getElementById("email").value.trim();
+            let password = document.getElementById("password").value;
+            let confirmPassword = document.getElementById("confirmPassword").value;
+            let errorMessage = document.getElementById("error-message");
+            let passwordError = document.getElementById("password-error");
 
-    // Email validation regex
-    let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    if (!emailPattern.test(email)) return;
+            // Email validation regex
+            let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            if (!emailPattern.test(email)) return;
 
-    // Password Strength Validation (Min 8 chars, Upper, Lower, Number)
-    let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
-    if (!passwordPattern.test(password)) return;
+            // Password Strength Validation (Min 8 chars, Upper, Lower, Number)
+            let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+            if (!passwordPattern.test(password)) return;
 
-    // Password Match Validation
-    if (password !== confirmPassword) return;
+            // Password Match Validation
+            if (password !== confirmPassword) return;
 
-    // ✅ Redirect Directly to Dashboard
-    window.location.href = "customerDashboard.html"; 
-});
-
-
+            // ✅ Redirect Directly to Dashboard
+            window.location.href = "customerDashboard.html"; 
+        });
     </script>
 
 </body>
